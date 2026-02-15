@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bessie Chu</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            line-height: 1.6;
+            color: #2c3e50;
+            background: #fff;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 60px 30px;
+        }
+        
+        header {
+            margin-bottom: 80px;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+            color: #1a1a1a;
+        }
+        
+        .intro {
+            font-size: 1.125rem;
+            color: #4a5568;
+            max-width: 700px;
+            line-height: 1.7;
+            margin-bottom: 15px;
+        }
+        
+        .location {
+            font-size: 0.95rem;
+            color: #718096;
+            font-style: italic;
+        }
+        
+        .sections {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin-top: 60px;
+        }
+        
+        .section-card {
+            border: 1px solid #e2e8f0;
+            padding: 35px 30px;
+            text-decoration: none;
+            color: inherit;
+            transition: all 0.3s ease;
+            background: #fff;
+        }
+        
+        .section-card:hover {
+            border-color: #3182ce;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+        
+        .section-card h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 12px;
+            color: #1a1a1a;
+        }
+        
+        .section-card p {
+            color: #718096;
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+        
+        .section-card .arrow {
+            display: inline-block;
+            margin-left: 5px;
+            transition: transform 0.3s ease;
+        }
+        
+        .section-card:hover .arrow {
+            transform: translateX(5px);
+        }
+        
+        footer {
+            margin-top: 100px;
+            padding-top: 40px;
+            border-top: 1px solid #e2e8f0;
+        }
+        
+        .links {
+            display: flex;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+        
+        .links a {
+            color: #2563eb;
+            text-decoration: none;
+            font-size: 0.95rem;
+            font-weight: 500;
+            transition: color 0.2s ease;
+        }
+        
+        .links a:hover {
+            color: #1e40af;
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 40px 20px;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .intro {
+                font-size: 1rem;
+            }
+            
+            .sections {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Bessie Chu</h1>
+           <p class="intro">
+                Product Exec solving real problems and building products that respect people. I'm into responsible tech, female-led investing, and international business.
+            </p>
+            <p class="location">Just returned from Taiwan to US in Feb 2026. Splitting time between NYC and Los Angeles. Available for consulting.</p>
+        </header>
+      
+
+        <main>  
+            
+
+            <div class="sections">
+                <a href="work.html" class="section-card">
+                    <h2>Work & Writing <span class="arrow">→</span></h2>
+                    <p>Reflections on angel investment, working in Taiwan, data privacy, and other professional development</p>
+                </a>
+                
+                <a href="about.html" class="section-card">
+                    <h2>About <span class="arrow">→</span></h2>
+                    <p>Background, what drives me, interests outside of work, and potential collaborations</p>
+                </a>
+                
+                <a href="bessie_2026_personal_user_manual.pdf" class="section-card" target="_blank">
+                    <h2>Personal User Manual <span class="arrow">→</span></h2>
+                    <p>How I work, communicate, and collaborate best. A guide for working with me.</p>
+                </a>
+                
+                <a href="https://www.linkedin.com/in/chubessie/" class="section-card" target="_blank">
+                    <h2>LinkedIn <span class="arrow">→</span></h2>
+                    <p>Connect with me professionally, see my work history, and get in touch.</p>
+                </a>
+            </div>
+        </main>
+        
+        <footer>
+        <div class="links">
+                <a href="work.html">Work & Writing</a>
+                <a href="about.html">About</a>
+                <a href="bessie_2026_personal_user_manual.pdf" target="_blank">Personal User Manual</a>
+                <a href="https://www.linkedin.com/in/chubessie/" target="_blank">LinkedIn</a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

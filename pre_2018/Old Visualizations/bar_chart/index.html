@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Attribution Methods</title>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js" charset="utf-8"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans" rel="stylesheet">
+        <style>
+
+            body {
+              margin: 5% 5% 5% 5%;
+              font-family: 'Lato';
+            }
+
+            .axis {
+              font: 12px 'Open Sans';
+              fill: white;
+            }
+
+
+            .axis path,
+            .axis line {
+              fill: none;
+              stroke: #FFD180;
+              shape-rendering: crispEdges;
+            }
+
+            .x.axis path {
+              display: none;
+            }
+
+
+            .bar {
+              fill: #4681EA;
+            }
+
+            .bar:hover {
+              fill: #FFD180;
+            }
+
+            div {
+              margin-left: 50px;
+              border: 1px solid white;
+              background-color: black;
+              color: white;
+            }
+
+            h1 {
+              margin-left: 10px;
+            }
+
+            h3 {
+              margin-left: 50px;
+            }
+
+            p {
+              margin-right: 150px;
+              margin-left: 50px;
+            }
+
+          .d3-tip {
+              line-height: 1;
+              font-weight: bold;
+              padding: 12px;
+              background: rgba(0, 0, 0, 0.8);
+              color: #fff;
+              border-radius: 2px;
+          }
+
+          /* Creates a small triangle extender for the tooltip */
+          .d3-tip:after {
+              box-sizing: border-box;
+              display: inline;
+              font-size: 10px;
+              width: 100%;
+              line-height: 1;
+              color: rgba(0, 0, 0, 0.8);
+              content: "\25BC";
+              position: absolute;
+              text-align: center;
+          }
+
+          /* Style northward tooltips differently */
+          .d3-tip.n:after {
+            margin: -1px 0 0 0;
+            top: 100%;
+            left: 0;
+          }
+
+        </style>
+    </head>
+    <body>
+
+
+      <h1>Understanding Marketing Attribution Methods</h1>
+
+
+        <div id="logistic">   
+          <h3>Attribution Using Logistic Regression</h3>   
+          <p>Logistic regression allows advanced knowledge about consumer response to drive weighting: time of day, duration between interactions, site side activity, and other factors.</p>
+        </div>  
+
+
+        <div id="lastclick">
+          <h3>Last Click Attribution</h3> 
+            <p>
+              Legacy attribution methodology developed out of Direct Response. Gives complete bias towards the last action.
+            </p>
+        </div>
+
+        <div id="firstclick">
+          <h3>First Click Attribution</h3> 
+            <p>
+              Complete bias towards first action and measures only digital impact from upper funnel.
+            </p>        
+        </div>
+
+        <div id="even">
+          <h3>Even Attribution</h3> 
+            <p>
+              Distributes revenue evenly across all actions and has a complete lack of bias, which doesn't align with understandings of consumers.
+            </p> 
+        </div>      
+
+        <div id="linear">
+          <h3>Linear Attribution</h3> 
+            <p>
+              Weighs bias towards the last action, but allows all actions to contribute towards revenue. Method assigns higher weights to middle tactics.
+            </p>        
+        </div>
+
+        <div id="u">
+          <h3>U-Shaped Attribution</h3> 
+            <p>
+              Bias towards the first and last actions but still allows all actions to contribute. Fits with the consumer theory "we remember the beginning and end but forget the middle."
+            </p>        
+        </div>
+
+        <script type="text/javascript">
+            // Sample data for demonstration since CSV files aren't available
+            const sampleData = [
+              {Medium: "Display", Attribution: 0.15},
+              {Medium: "Social", Attribution: 0.20},
+              {Medium: "Email", Attribution: 0.25},
+              {Medium: "Search", Attribution: 0.40}
+            ];
+
+            // D3 v7 uses different scale syntax
+            const margin = {top: 20, right: 20, bottom: 30, left: 80};
+            const width = 1000 - margin.left - margin.right;
+            const height = 400 - margin.top - margin.bottom;
+
+            // Create scales using D3 v7 syntax
+            const x = d3.scaleBand()
+                .range([0, width])
+                .padding(0.1);
+
+            const y = d3.scaleLinear()
+                .range([height, 0]);
+
+            // Function to create chart for each section
+            function createChart(selector, data) {
+              const svg = d3.select(selector)
+                  .append("svg")
+                  .attr("width", width + margin.left + margin.right)
+                  .attr("height", height + margin.top + margin.bottom)
+                  .append("g")
+                  .attr("transform", `translate(${margin.left},${margin.top})`);
+
+              x.domain(data.map(d => d.Medium));
+              y.domain([0, d3.max(data, d => d.Attribution)]);
+
+              // X axis
+              svg.append("g")
+                  .attr("class", "x axis")
+                  .attr("transform", `translate(0,${height})`)
+                  .call(d3.axisBottom(x));
+
+              // Y axis
+              svg.append("g")
+                  .attr("class", "y axis")
+                  .call(d3.axisLeft(y).ticks(10).tickFormat(d3.format(".0%")))
+                .append("text")
+                  .attr("transform", "rotate(-90)")
+                  .attr("y", 6)
+                  .attr("dy", ".71em")
+                  .style("text-anchor", "end")
+                  .text("Attribution");
+
+              // Bars
+              svg.selectAll(".bar")
+                  .data(data)
+                .enter().append("rect")
+                  .attr("class", "bar")
+                  .attr("x", d => x(d.Medium))
+                  .attr("width", x.bandwidth())
+                  .attr("y", d => y(d.Attribution))
+                  .attr("height", d => height - y(d.Attribution))
+                  .on('mouseover', function(event, d) {
+                    d3.select(this).style('fill', '#FFD180');
+                  })
+                  .on('mouseout', function(event, d) {
+                    d3.select(this).style('fill', '#4681EA');
+                  })
+                  .append("title")
+                  .text(d => `${d.Medium}: ${Math.round(d.Attribution * 100)}%`);
+            }
+
+            // Create charts with sample data
+            createChart("#logistic", sampleData);
+            createChart("#lastclick", [{Medium: "Display", Attribution: 0.00}, {Medium: "Social", Attribution: 0.00}, {Medium: "Email", Attribution: 0.00}, {Medium: "Search", Attribution: 1.00}]);
+            createChart("#firstclick", [{Medium: "Display", Attribution: 1.00}, {Medium: "Social", Attribution: 0.00}, {Medium: "Email", Attribution: 0.00}, {Medium: "Search", Attribution: 0.00}]);
+            createChart("#even", [{Medium: "Display", Attribution: 0.25}, {Medium: "Social", Attribution: 0.25}, {Medium: "Email", Attribution: 0.25}, {Medium: "Search", Attribution: 0.25}]);
+            createChart("#linear", [{Medium: "Display", Attribution: 0.10}, {Medium: "Social", Attribution: 0.20}, {Medium: "Email", Attribution: 0.30}, {Medium: "Search", Attribution: 0.40}]);
+            createChart("#u", [{Medium: "Display", Attribution: 0.40}, {Medium: "Social", Attribution: 0.10}, {Medium: "Email", Attribution: 0.10}, {Medium: "Search", Attribution: 0.40}]);
+
+        </script>
+
+
+    </body>
+</html>

@@ -1,0 +1,57 @@
+source,target
+FIFA Confederations,CONCACAF
+FIFA Confederations,CONMEBOL
+CONCACAF,North American Zone
+CONCACAF,Central American Zone
+CONCACAF,Caribbean Zone
+North American Zone,Canada
+North American Zone,Mexico
+North American Zone,United States
+Central American Zone,Belize
+Central American Zone,Costa Rica
+Central American Zone,El Salvador
+Central American Zone,Guatemala
+Central American Zone,Honduras
+Central American Zone,Nicaragua
+Central American Zone,Panama
+Caribbean Zone,Anguilla
+Caribbean Zone,Antigua and Barbuda
+Caribbean Zone,Aruba
+Caribbean Zone,Bahamas
+Caribbean Zone,Barbados
+Caribbean Zone,Bermuda
+Caribbean Zone,Bonaire
+Caribbean Zone,British Virgin Islands
+Caribbean Zone,Cayman Islands
+Caribbean Zone,Cuba
+Caribbean Zone,Curacao
+Caribbean Zone,Dominica
+Caribbean Zone,Dominican Republic
+Caribbean Zone,French Guiana
+Caribbean Zone,Grenada
+Caribbean Zone,Guadeloupe
+Caribbean Zone,Guyana
+Caribbean Zone,Haiti
+Caribbean Zone,Jamaica
+Caribbean Zone,Martinique
+Caribbean Zone,Montserrat
+Caribbean Zone,Puerto Rico
+Caribbean Zone,Saint Kitts and Nevis
+Caribbean Zone,Saint Lucia
+Caribbean Zone,Saint Martin
+Caribbean Zone,Saint Vincent and the Grenadines
+Caribbean Zone,Sint Maarten
+Caribbean Zone,Suriname
+Caribbean Zone,Trinidad and Tobago
+Caribbean Zone,Turks and Caicos Islands
+Caribbean Zone,U.S. Virgin Islands
+CONMEBOL,Brazil
+CONMEBOL,Paraguay
+CONMEBOL,Bolivia
+CONMEBOL,Colombia
+CONMEBOL,Argentina
+CONMEBOL,Chile
+CONMEBOL,Peru
+CONMEBOL,Uruguay
+CONMEBOL,Venezuela
+CONMEBOL,Ecuador

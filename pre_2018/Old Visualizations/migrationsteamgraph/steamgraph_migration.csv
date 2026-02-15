@@ -1,0 +1,785 @@
+key,value,date
+Canada to United States,1509,1990
+United States to United States,0,1990
+Angola to United States,0,1990
+Burundi to United States,797,1990
+Benin to United States,0,1990
+Burkina Faso to United States,0,1990
+Botswana to United States,0,1990
+Central African Republic to United States,0,1990
+Ivory Coast to United States,240,1990
+Cameroon to United States,770,1990
+DR Congo to United States,0,1990
+Congo to United States,0,1990
+Comoros to United States,0,1990
+Cape Verde to United States,0,1990
+Djibouti to United States,95,1990
+Algeria to United States,1498,1990
+Egypt to United States,54838,1990
+Eritrea to United States,5892,1990
+Western Sahara to United States,0,1990
+Ethiopia to United States,0,1990
+Gabon to United States,0,1990
+Ghana to United States,49,1990
+Guinea to United States,0,1990
+Gambia to United States,1584,1990
+Guinea-Bissau to United States,4,1990
+Equatorial Guinea to United States,0,1990
+Kenya to United States,14004,1990
+Liberia to United States,7623,1990
+Libya to United States,400,1990
+Lesotho to United States,2,1990
+Morocco to United States,9243,1990
+Madagascar to United States,36,1990
+Mali to United States,0,1990
+Mozambique to United States,0,1990
+Mauritania to United States,197,1990
+Mauritius to United States,167,1990
+Malawi to United States,1132,1990
+Mayotte to United States,0,1990
+Namibia to United States,0,1990
+Niger to United States,9,1990
+Nigeria to United States,15069,1990
+Reunion to United States,12,1990
+Rwanda to United States,4897,1990
+Sudan to United States,0,1990
+Senegal to United States,333,1990
+Sierra Leone to United States,3934,1990
+Somalia to United States,19006,1990
+South Sudan to United States,9131,1990
+Sao Tome & Principe to United States,0,1990
+Swaziland to United States,0,1990
+Chad to United States,0,1990
+Togo to United States,32,1990
+Tunisia to United States,510,1990
+Tanzania to United States,8,1990
+Uganda to United States,6330,1990
+South Africa to United States,0,1990
+Zambia to United States,8,1990
+Zimbabwe to United States,2722,1990
+Albania to United States,18081,1990
+Austria to United States,38,1990
+Belgium to United States,160,1990
+Bulgaria to United States,17705,1990
+Bosnia & Herzegovina to United States,51117,1990
+Switzerland to United States,96,1990
+Channel Islands to United States,0,1990
+Czech Republic to United States,0,1990
+Germany to United States,697,1990
+Denmark to United States,4,1990
+Spain to United States,578,1990
+Finland to United States,0,1990
+France to United States,2883,1990
+United Kingdom to United States,1151,1990
+Greece to United States,63,1990
+Croatia to United States,61,1990
+Hungary to United States,3,1990
+Ireland to United States,0,1990
+Iceland to United States,1,1990
+Italy to United States,2588,1990
+Luxembourg to United States,4,1990
+Macedonia to United States,295,1990
+Malta to United States,0,1990
+Montenegro to United States,0,1990
+Netherlands to United States,435,1990
+Norway to United States,37,1990
+Poland to United States,22,1990
+Portugal to United States,0,1990
+Romania to United States,42443,1990
+Serbia to United States,0,1990
+Slovakia to United States,0,1990
+Slovenia to United States,0,1990
+Sweden to United States,38,1990
+Armenia to United States,32539,1990
+Azerbaijan to United States,2589,1990
+Belarus to United States,1572,1990
+Estonia to United States,1885,1990
+Georgia to United States,6910,1990
+Kazakhstan to United States,11467,1990
+Kyrgyzstan to United States,3834,1990
+Lithuania to United States,809,1990
+Latvia to United States,1025,1990
+Moldova to United States,2296,1990
+Russia to United States,1392,1990
+Tajikistan to United States,901,1990
+Turkmenistan to United States,0,1990
+Ukraine to United States,12713,1990
+Uzbekistan to United States,6203,1990
+United Arab Emirates to United States,3699,1990
+Bahrain to United States,505,1990
+Cyprus to United States,0,1990
+Iraq to United States,11512,1990
+Israel to United States,0,1990
+Jordan to United States,79,1990
+Kuwait to United States,61422,1990
+Lebanon to United States,0,1990
+Oman to United States,807,1990
+Palestine to United States,0,1990
+Qatar to United States,1921,1990
+Saudi Arabia to United States,18038,1990
+Syria to United States,1510,1990
+Turkey to United States,2362,1990
+Yemen to United States,0,1990
+Afghanistan to United States,0,1990
+Bangladesh to United States,48234,1990
+Bhutan to United States,7091,1990
+India to United States,202309,1990
+Iran to United States,0,1990
+Sri Lanka to United States,26244,1990
+Maldives to United States,227,1990
+Nepal to United States,4955,1990
+Pakistan to United States,36,1990
+China to United States,222772,1990
+Hong Kong to United States,26202,1990
+Japan to United States,25119,1990
+South Korea to United States,327767,1990
+Macao to United States,884,1990
+Mongolia to United States,3114,1990
+North Korea to United States,0,1990
+Brunei to United States,304,1990
+Indonesia to United States,46967,1990
+Cambodia to United States,0,1990
+Laos to United States,17390,1990
+Myanmar to United States,17650,1990
+Malaysia to United States,7858,1990
+Philippines to United States,302134,1990
+Singapore to United States,6206,1990
+Thailand to United States,340629,1990
+Timor-Leste to United States,0,1990
+Vietnam to United States,176055,1990
+Australia to United States,4289,1990
+Fiji to United States,8285,1990
+Micronesia to United States,1452,1990
+Guam to United States,122,1990
+New Caledonia to United States,23,1990
+New Zealand to United States,383,1990
+Papua New Guinea to United States,209,1990
+French Polynesia to United States,227,1990
+Solomon Islands to United States,36,1990
+Tonga to United States,3565,1990
+Vanuatu to United States,0,1990
+Samoa to United States,1561,1990
+Aruba to United States,0,1990
+Argentina to United States,5143,1990
+Bahamas to United States,4762,1990
+Belize to United States,8397,1990
+Bolivia to United States,13928,1990
+Brazil to United States,36230,1990
+Barbados to United States,392,1990
+Chile to United States,8,1990
+Colombia to United States,94014,1990
+Costa Rica to United States,18004,1990
+Cuba to United States,67165,1990
+Dominican Republic to United States,133791,1990
+Ecuador to United States,44937,1990
+Guadeloupe to United States,3970,1990
+Grenada to United States,3158,1990
+Guatemala to United States,320883,1990
+French Guiana to United States,134,1990
+Guyana to United States,28431,1990
+Honduras to United States,100510,1990
+Haiti to United States,82505,1990
+Jamaica to United States,87864,1990
+Saint Lucia to United States,3174,1990
+Mexico to United States,1850468,1990
+Martinique to United States,467,1990
+Nicaragua to United States,41413,1990
+Panama to United States,3907,1990
+Peru to United States,105573,1990
+Puerto Rico to United States,70691,1990
+Paraguay to United States,3531,1990
+El Salvador to United States,228872,1990
+Suriname to United States,482,1990
+Trinidad & Tobago to United States,16868,1990
+Uruguay to United States,175,1990
+Saint Vincent & Grenadines to United States,3971,1990
+Venezuela to United States,25212,1990
+Virgin Islands to United States,2291,1990
+Canada to United States,190436,1995
+United States to United States,0,1995
+Angola to United States,2892,1995
+Burundi to United States,28,1995
+Benin to United States,129,1995
+Burkina Faso to United States,1506,1995
+Botswana to United States,304,1995
+Central African Republic to United States,287,1995
+Ivory Coast to United States,16646,1995
+Cameroon to United States,6037,1995
+DR Congo to United States,7895,1995
+Congo to United States,1799,1995
+Comoros to United States,12,1995
+Cape Verde to United States,7340,1995
+Djibouti to United States,0,1995
+Algeria to United States,8157,1995
+Egypt to United States,126877,1995
+Eritrea to United States,686,1995
+Western Sahara to United States,0,1995
+Ethiopia to United States,30222,1995
+Gabon to United States,158,1995
+Ghana to United States,18408,1995
+Guinea to United States,3654,1995
+Gambia to United States,6304,1995
+Guinea-Bissau to United States,59,1995
+Equatorial Guinea to United States,0,1995
+Kenya to United States,30231,1995
+Liberia to United States,0,1995
+Libya to United States,17766,1995
+Lesotho to United States,579,1995
+Morocco to United States,20572,1995
+Madagascar to United States,465,1995
+Mali to United States,550,1995
+Mozambique to United States,5924,1995
+Mauritania to United States,529,1995
+Mauritius to United States,865,1995
+Malawi to United States,1237,1995
+Mayotte to United States,0,1995
+Namibia to United States,1164,1995
+Niger to United States,1644,1995
+Nigeria to United States,72162,1995
+Reunion to United States,29,1995
+Rwanda to United States,0,1995
+Sudan to United States,67843,1995
+Senegal to United States,12302,1995
+Sierra Leone to United States,2664,1995
+Somalia to United States,20281,1995
+South Sudan to United States,0,1995
+Sao Tome & Principe to United States,29,1995
+Swaziland to United States,1631,1995
+Chad to United States,9,1995
+Togo to United States,0,1995
+Tunisia to United States,2546,1995
+Tanzania to United States,7697,1995
+Uganda to United States,73,1995
+South Africa to United States,18994,1995
+Zambia to United States,4463,1995
+Zimbabwe to United States,7493,1995
+Albania to United States,18069,1995
+Austria to United States,474,1995
+Belgium to United States,4132,1995
+Bulgaria to United States,21829,1995
+Bosnia & Herzegovina to United States,0,1995
+Switzerland to United States,11222,1995
+Channel Islands to United States,0,1995
+Czech Republic to United States,709,1995
+Germany to United States,135902,1995
+Denmark to United States,1171,1995
+Spain to United States,1355,1995
+Finland to United States,1372,1995
+France to United States,62050,1995
+United Kingdom to United States,162294,1995
+Greece to United States,4062,1995
+Croatia to United States,6637,1995
+Hungary to United States,1780,1995
+Ireland to United States,14423,1995
+Iceland to United States,455,1995
+Italy to United States,58601,1995
+Luxembourg to United States,577,1995
+Macedonia to United States,2452,1995
+Malta to United States,8,1995
+Montenegro to United States,281,1995
+Netherlands to United States,22406,1995
+Norway to United States,138,1995
+Poland to United States,61257,1995
+Portugal to United States,18386,1995
+Romania to United States,57966,1995
+Serbia to United States,62577,1995
+Slovakia to United States,544,1995
+Slovenia to United States,0,1995
+Sweden to United States,5537,1995
+Armenia to United States,35394,1995
+Azerbaijan to United States,10005,1995
+Belarus to United States,4078,1995
+Estonia to United States,3342,1995
+Georgia to United States,17743,1995
+Kazakhstan to United States,103445,1995
+Kyrgyzstan to United States,8468,1995
+Lithuania to United States,8776,1995
+Latvia to United States,10508,1995
+Moldova to United States,19118,1995
+Russia to United States,13742,1995
+Tajikistan to United States,15267,1995
+Turkmenistan to United States,5750,1995
+Ukraine to United States,91286,1995
+Uzbekistan to United States,38221,1995
+United Arab Emirates to United States,8277,1995
+Bahrain to United States,1267,1995
+Cyprus to United States,0,1995
+Iraq to United States,18483,1995
+Israel to United States,3315,1995
+Jordan to United States,59055,1995
+Kuwait to United States,22615,1995
+Lebanon to United States,42686,1995
+Oman to United States,61640,1995
+Palestine to United States,17431,1995
+Qatar to United States,2716,1995
+Saudi Arabia to United States,298006,1995
+Syria to United States,32251,1995
+Turkey to United States,26069,1995
+Yemen to United States,19933,1995
+Afghanistan to United States,11470,1995
+Bangladesh to United States,110884,1995
+Bhutan to United States,2,1995
+India to United States,379890,1995
+Iran to United States,14459,1995
+Sri Lanka to United States,69781,1995
+Maldives to United States,433,1995
+Nepal to United States,8429,1995
+Pakistan to United States,73017,1995
+China to United States,276024,1995
+Hong Kong to United States,0,1995
+Japan to United States,128481,1995
+South Korea to United States,405106,1995
+Macao to United States,411,1995
+Mongolia to United States,3217,1995
+North Korea to United States,24,1995
+Brunei to United States,254,1995
+Indonesia to United States,85854,1995
+Cambodia to United States,0,1995
+Laos to United States,0,1995
+Myanmar to United States,0,1995
+Malaysia to United States,19463,1995
+Philippines to United States,506348,1995
+Singapore to United States,10032,1995
+Thailand to United States,754,1995
+Timor-Leste to United States,1853,1995
+Vietnam to United States,213914,1995
+Australia to United States,24881,1995
+Fiji to United States,15117,1995
+Micronesia to United States,9154,1995
+Guam to United States,144,1995
+New Caledonia to United States,124,1995
+New Zealand to United States,7093,1995
+Papua New Guinea to United States,627,1995
+French Polynesia to United States,510,1995
+Solomon Islands to United States,84,1995
+Tonga to United States,5466,1995
+Vanuatu to United States,408,1995
+Samoa to United States,5776,1995
+Aruba to United States,587,1995
+Argentina to United States,62432,1995
+Bahamas to United States,7369,1995
+Belize to United States,9950,1995
+Bolivia to United States,24241,1995
+Brazil to United States,77559,1995
+Barbados to United States,2530,1995
+Chile to United States,480,1995
+Colombia to United States,99108,1995
+Costa Rica to United States,18252,1995
+Cuba to United States,119330,1995
+Dominican Republic to United States,166103,1995
+Ecuador to United States,181469,1995
+Guadeloupe to United States,6223,1995
+Grenada to United States,4992,1995
+Guatemala to United States,366689,1995
+French Guiana to United States,589,1995
+Guyana to United States,41158,1995
+Honduras to United States,141732,1995
+Haiti to United States,101307,1995
+Jamaica to United States,77905,1995
+Saint Lucia to United States,1820,1995
+Mexico to United States,1518580,1995
+Martinique to United States,891,1995
+Nicaragua to United States,52495,1995
+Panama to United States,5561,1995
+Peru to United States,153372,1995
+Puerto Rico to United States,90687,1995
+Paraguay to United States,10559,1995
+El Salvador to United States,371550,1995
+Suriname to United States,2204,1995
+Trinidad & Tobago to United States,21745,1995
+Uruguay to United States,7417,1995
+Saint Vincent & Grenadines to United States,5119,1995
+Venezuela to United States,37433,1995
+Virgin Islands to United States,2494,1995
+Canada to United States,238,2000
+United States to United States,0,2000
+Angola to United States,0,2000
+Burundi to United States,2,2000
+Benin to United States,0,2000
+Burkina Faso to United States,3716,2000
+Botswana to United States,105,2000
+Central African Republic to United States,112,2000
+Ivory Coast to United States,32965,2000
+Cameroon to United States,14247,2000
+DR Congo to United States,321,2000
+Congo to United States,168,2000
+Comoros to United States,0,2000
+Cape Verde to United States,1,2000
+Djibouti to United States,4,2000
+Algeria to United States,0,2000
+Egypt to United States,38436,2000
+Eritrea to United States,0,2000
+Western Sahara to United States,0,2000
+Ethiopia to United States,69560,2000
+Gabon to United States,131,2000
+Ghana to United States,24211,2000
+Guinea to United States,16792,2000
+Gambia to United States,1933,2000
+Guinea-Bissau to United States,22,2000
+Equatorial Guinea to United States,0,2000
+Kenya to United States,18336,2000
+Liberia to United States,13907,2000
+Libya to United States,541,2000
+Lesotho to United States,0,2000
+Morocco to United States,10769,2000
+Madagascar to United States,0,2000
+Mali to United States,725,2000
+Mozambique to United States,942,2000
+Mauritania to United States,0,2000
+Mauritius to United States,22,2000
+Malawi to United States,603,2000
+Mayotte to United States,0,2000
+Namibia to United States,0,2000
+Niger to United States,200,2000
+Nigeria to United States,72619,2000
+Reunion to United States,6,2000
+Rwanda to United States,39,2000
+Sudan to United States,17868,2000
+Senegal to United States,2569,2000
+Sierra Leone to United States,0,2000
+Somalia to United States,19887,2000
+South Sudan to United States,0,2000
+Sao Tome & Principe to United States,9,2000
+Swaziland to United States,309,2000
+Chad to United States,0,2000
+Togo to United States,47,2000
+Tunisia to United States,4,2000
+Tanzania to United States,9136,2000
+Uganda to United States,0,2000
+South Africa to United States,7440,2000
+Zambia to United States,92,2000
+Zimbabwe to United States,17696,2000
+Albania to United States,2187,2000
+Austria to United States,3,2000
+Belgium to United States,0,2000
+Bulgaria to United States,0,2000
+Bosnia & Herzegovina to United States,312,2000
+Switzerland to United States,7,2000
+Channel Islands to United States,0,2000
+Czech Republic to United States,2524,2000
+Germany to United States,143,2000
+Denmark to United States,0,2000
+Spain to United States,0,2000
+Finland to United States,0,2000
+France to United States,82,2000
+United Kingdom to United States,4092,2000
+Greece to United States,88,2000
+Croatia to United States,473,2000
+Hungary to United States,0,2000
+Ireland to United States,7,2000
+Iceland to United States,0,2000
+Italy to United States,6,2000
+Luxembourg to United States,1,2000
+Macedonia to United States,394,2000
+Malta to United States,0,2000
+Montenegro to United States,1992,2000
+Netherlands to United States,125,2000
+Norway to United States,61,2000
+Poland to United States,3,2000
+Portugal to United States,26,2000
+Romania to United States,0,2000
+Serbia to United States,1556,2000
+Slovakia to United States,787,2000
+Slovenia to United States,292,2000
+Sweden to United States,0,2000
+Armenia to United States,360,2000
+Azerbaijan to United States,0,2000
+Belarus to United States,2355,2000
+Estonia to United States,0,2000
+Georgia to United States,4334,2000
+Kazakhstan to United States,6149,2000
+Kyrgyzstan to United States,1060,2000
+Lithuania to United States,1608,2000
+Latvia to United States,85,2000
+Moldova to United States,10888,2000
+Russia to United States,159,2000
+Tajikistan to United States,1389,2000
+Turkmenistan to United States,597,2000
+Ukraine to United States,2560,2000
+Uzbekistan to United States,20783,2000
+United Arab Emirates to United States,7756,2000
+Bahrain to United States,1284,2000
+Cyprus to United States,0,2000
+Iraq to United States,11477,2000
+Israel to United States,220,2000
+Jordan to United States,29891,2000
+Kuwait to United States,3890,2000
+Lebanon to United States,728,2000
+Oman to United States,4758,2000
+Palestine to United States,5747,2000
+Qatar to United States,793,2000
+Saudi Arabia to United States,22598,2000
+Syria to United States,0,2000
+Turkey to United States,280,2000
+Yemen to United States,17732,2000
+Afghanistan to United States,0,2000
+Bangladesh to United States,84997,2000
+Bhutan to United States,0,2000
+India to United States,638048,2000
+Iran to United States,4671,2000
+Sri Lanka to United States,10454,2000
+Maldives to United States,1328,2000
+Nepal to United States,39399,2000
+Pakistan to United States,83620,2000
+China to United States,796005,2000
+Hong Kong to United States,58203,2000
+Japan to United States,63936,2000
+South Korea to United States,257579,2000
+Macao to United States,1868,2000
+Mongolia to United States,29,2000
+North Korea to United States,0,2000
+Brunei to United States,6698,2000
+Indonesia to United States,65445,2000
+Cambodia to United States,0,2000
+Laos to United States,0,2000
+Myanmar to United States,40901,2000
+Malaysia to United States,50379,2000
+Philippines to United States,429262,2000
+Singapore to United States,11601,2000
+Thailand to United States,20845,2000
+Timor-Leste to United States,146,2000
+Vietnam to United States,196708,2000
+Australia to United States,6388,2000
+Fiji to United States,13658,2000
+Micronesia to United States,7772,2000
+Guam to United States,16,2000
+New Caledonia to United States,259,2000
+New Zealand to United States,2146,2000
+Papua New Guinea to United States,517,2000
+French Polynesia to United States,1,2000
+Solomon Islands to United States,18,2000
+Tonga to United States,1937,2000
+Vanuatu to United States,0,2000
+Samoa to United States,10,2000
+Aruba to United States,0,2000
+Argentina to United States,25251,2000
+Bahamas to United States,3275,2000
+Belize to United States,6143,2000
+Bolivia to United States,8869,2000
+Brazil to United States,85192,2000
+Barbados to United States,0,2000
+Chile to United States,10604,2000
+Colombia to United States,0,2000
+Costa Rica to United States,7974,2000
+Cuba to United States,77082,2000
+Dominican Republic to United States,89866,2000
+Ecuador to United States,0,2000
+Guadeloupe to United States,567,2000
+Grenada to United States,2170,2000
+Guatemala to United States,281174,2000
+French Guiana to United States,13,2000
+Guyana to United States,3073,2000
+Honduras to United States,129335,2000
+Haiti to United States,92782,2000
+Jamaica to United States,60529,2000
+Saint Lucia to United States,305,2000
+Mexico to United States,2677763,2000
+Martinique to United States,180,2000
+Nicaragua to United States,89242,2000
+Panama to United States,5650,2000
+Peru to United States,180295,2000
+Puerto Rico to United States,112625,2000
+Paraguay to United States,102,2000
+El Salvador to United States,329875,2000
+Suriname to United States,0,2000
+Trinidad & Tobago to United States,79,2000
+Uruguay to United States,12592,2000
+Saint Vincent & Grenadines to United States,2313,2000
+Venezuela to United States,12133,2000
+Virgin Islands to United States,330,2000
+Canada to United States,28,2005
+United States to United States,0,2005
+Angola to United States,0,2005
+Burundi to United States,0,2005
+Benin to United States,23,2005
+Burkina Faso to United States,1368,2005
+Botswana to United States,137,2005
+Central African Republic to United States,6,2005
+Ivory Coast to United States,18514,2005
+Cameroon to United States,19816,2005
+DR Congo to United States,225,2005
+Congo to United States,0,2005
+Comoros to United States,0,2005
+Cape Verde to United States,1427,2005
+Djibouti to United States,5,2005
+Algeria to United States,0,2005
+Egypt to United States,26385,2005
+Eritrea to United States,13,2005
+Western Sahara to United States,0,2005
+Ethiopia to United States,57079,2005
+Gabon to United States,159,2005
+Ghana to United States,41874,2005
+Guinea to United States,13927,2005
+Gambia to United States,1502,2005
+Guinea-Bissau to United States,15,2005
+Equatorial Guinea to United States,0,2005
+Kenya to United States,38282,2005
+Liberia to United States,1377,2005
+Libya to United States,229,2005
+Lesotho to United States,20,2005
+Morocco to United States,13310,2005
+Madagascar to United States,0,2005
+Mali to United States,407,2005
+Mozambique to United States,955,2005
+Mauritania to United States,17,2005
+Mauritius to United States,0,2005
+Malawi to United States,233,2005
+Mayotte to United States,0,2005
+Namibia to United States,0,2005
+Niger to United States,148,2005
+Nigeria to United States,103012,2005
+Reunion to United States,9,2005
+Rwanda to United States,0,2005
+Sudan to United States,40912,2005
+Senegal to United States,2519,2005
+Sierra Leone to United States,18,2005
+Somalia to United States,28767,2005
+South Sudan to United States,0,2005
+Sao Tome & Principe to United States,7,2005
+Swaziland to United States,0,2005
+Chad to United States,1895,2005
+Togo to United States,77,2005
+Tunisia to United States,5,2005
+Tanzania to United States,0,2005
+Uganda to United States,0,2005
+South Africa to United States,11519,2005
+Zambia to United States,1,2005
+Zimbabwe to United States,20637,2005
+Albania to United States,0,2005
+Austria to United States,0,2005
+Belgium to United States,0,2005
+Bulgaria to United States,0,2005
+Bosnia & Herzegovina to United States,1,2005
+Switzerland to United States,16,2005
+Channel Islands to United States,0,2005
+Czech Republic to United States,0,2005
+Germany to United States,68,2005
+Denmark to United States,0,2005
+Spain to United States,0,2005
+Finland to United States,0,2005
+France to United States,547,2005
+United Kingdom to United States,2196,2005
+Greece to United States,124,2005
+Croatia to United States,0,2005
+Hungary to United States,0,2005
+Ireland to United States,17,2005
+Iceland to United States,1,2005
+Italy to United States,4,2005
+Luxembourg to United States,0,2005
+Macedonia to United States,0,2005
+Malta to United States,0,2005
+Montenegro to United States,0,2005
+Netherlands to United States,141,2005
+Norway to United States,2,2005
+Poland to United States,1,2005
+Portugal to United States,116,2005
+Romania to United States,0,2005
+Serbia to United States,0,2005
+Slovakia to United States,2,2005
+Slovenia to United States,5,2005
+Sweden to United States,0,2005
+Armenia to United States,4,2005
+Azerbaijan to United States,0,2005
+Belarus to United States,0,2005
+Estonia to United States,0,2005
+Georgia to United States,778,2005
+Kazakhstan to United States,3347,2005
+Kyrgyzstan to United States,32,2005
+Lithuania to United States,0,2005
+Latvia to United States,0,2005
+Moldova to United States,2788,2005
+Russia to United States,181,2005
+Tajikistan to United States,521,2005
+Turkmenistan to United States,1,2005
+Ukraine to United States,0,2005
+Uzbekistan to United States,9373,2005
+United Arab Emirates to United States,11196,2005
+Bahrain to United States,0,2005
+Cyprus to United States,0,2005
+Iraq to United States,89,2005
+Israel to United States,167,2005
+Jordan to United States,18567,2005
+Kuwait to United States,2156,2005
+Lebanon to United States,1603,2005
+Oman to United States,730,2005
+Palestine to United States,1126,2005
+Qatar to United States,0,2005
+Saudi Arabia to United States,36710,2005
+Syria to United States,22566,2005
+Turkey to United States,0,2005
+Yemen to United States,20903,2005
+Afghanistan to United States,13781,2005
+Bangladesh to United States,128303,2005
+Bhutan to United States,0,2005
+India to United States,701242,2005
+Iran to United States,68345,2005
+Sri Lanka to United States,15766,2005
+Maldives to United States,1064,2005
+Nepal to United States,48919,2005
+Pakistan to United States,147652,2005
+China to United States,615536,2005
+Hong Kong to United States,21007,2005
+Japan to United States,3128,2005
+South Korea to United States,176430,2005
+Macao to United States,558,2005
+Mongolia to United States,10,2005
+North Korea to United States,0,2005
+Brunei to United States,5321,2005
+Indonesia to United States,65117,2005
+Cambodia to United States,22152,2005
+Laos to United States,0,2005
+Myanmar to United States,28118,2005
+Malaysia to United States,54160,2005
+Philippines to United States,373024,2005
+Singapore to United States,3738,2005
+Thailand to United States,68083,2005
+Timor-Leste to United States,1661,2005
+Vietnam to United States,172530,2005
+Australia to United States,308,2005
+Fiji to United States,4609,2005
+Micronesia to United States,7405,2005
+Guam to United States,120,2005
+New Caledonia to United States,374,2005
+New Zealand to United States,2665,2005
+Papua New Guinea to United States,325,2005
+French Polynesia to United States,5,2005
+Solomon Islands to United States,20,2005
+Tonga to United States,1525,2005
+Vanuatu to United States,1,2005
+Samoa to United States,7,2005
+Aruba to United States,0,2005
+Argentina to United States,28117,2005
+Bahamas to United States,4563,2005
+Belize to United States,3878,2005
+Bolivia to United States,11768,2005
+Brazil to United States,75163,2005
+Barbados to United States,0,2005
+Chile to United States,13056,2005
+Colombia to United States,28,2005
+Costa Rica to United States,7585,2005
+Cuba to United States,118560,2005
+Dominican Republic to United States,95233,2005
+Ecuador to United States,101,2005
+Guadeloupe to United States,900,2005
+Grenada to United States,2110,2005
+Guatemala to United States,196146,2005
+French Guiana to United States,343,2005
+Guyana to United States,5744,2005
+Honduras to United States,83578,2005
+Haiti to United States,133517,2005
+Jamaica to United States,76052,2005
+Saint Lucia to United States,494,2005
+Mexico to United States,1957397,2005
+Martinique to United States,164,2005
+Nicaragua to United States,82311,2005
+Panama to United States,2863,2005
+Peru to United States,194181,2005
+Puerto Rico to United States,104291,2005
+Paraguay to United States,0,2005
+El Salvador to United States,268935,2005
+Suriname to United States,164,2005
+Trinidad & Tobago to United States,168,2005
+Uruguay to United States,7926,2005
+Saint Vincent & Grenadines to United States,2205,2005
+Venezuela to United States,11808,2005
+Virgin Islands to United States,330,2005

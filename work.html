@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work & Writing - Bessie Chu</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            line-height: 1.6;
+            color: #2c3e50;
+            background: #fff;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 60px 30px;
+        }
+        
+        nav {
+            margin-bottom: 50px;
+        }
+        
+        nav a {
+            color: #3182ce;
+            text-decoration: none;
+            font-size: 0.95rem;
+        }
+        
+        nav a:hover {
+            text-decoration: underline;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin-bottom: 30px;
+            color: #1a1a1a;
+        }
+        
+        .overview {
+            font-size: 1.125rem;
+            color: #4a5568;
+            line-height: 1.7;
+            margin-bottom: 60px;
+            max-width: 700px;
+        }
+        
+        .section {
+            margin-bottom: 70px;
+        }
+        
+        .section h2 {
+            font-size: 1.75rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: #1a1a1a;
+        }
+        
+        .section-intro {
+            color: #718096;
+            font-size: 0.95rem;
+            margin-bottom: 30px;
+        }
+        
+        .articles {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+        }
+        
+        .article {
+            border-left: 3px solid #e2e8f0;
+            padding-left: 20px;
+            transition: border-color 0.2s ease;
+        }
+        
+        .article:hover {
+            border-left-color: #3182ce;
+        }
+        
+        .article h3 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        
+        .article h3 a {
+            color: #1a1a1a;
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+        
+        .article h3 a:hover {
+            color: #3182ce;
+        }
+        
+        .article-meta {
+            font-size: 0.85rem;
+            color: #a0aec0;
+            margin-bottom: 8px;
+        }
+        
+        .article-description {
+            color: #4a5568;
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+        
+        .external-link {
+            display: inline-block;
+            font-size: 0.85rem;
+            color: #3182ce;
+            text-decoration: none;
+            margin-top: 5px;
+        }
+        
+        .external-link:hover {
+            text-decoration: underline;
+        }
+        
+        .view-more {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #e2e8f0;
+        }
+        
+        .view-more a {
+            display: inline-flex;
+            align-items: center;
+            color: #3182ce;
+            text-decoration: none;
+            font-size: 0.95rem;
+            font-weight: 500;
+            transition: color 0.2s ease;
+        }
+        
+        .view-more a:hover {
+            color: #2c5aa0;
+        }
+        
+        .view-more a::after {
+            content: '→';
+            margin-left: 8px;
+            transition: transform 0.2s ease;
+        }
+        
+        .view-more a:hover::after {
+            transform: translateX(4px);
+        }
+        
+        .experience {
+            background: #f7fafc;
+            border: 1px solid #e2e8f0;
+            padding: 30px;
+            margin-bottom: 70px;
+        }
+        
+        .experience h2 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+        }
+        
+        .experience p {
+            color: #4a5568;
+            line-height: 1.7;
+            margin-bottom: 12px;
+        }
+        
+        footer {
+            margin-top: 100px;
+            padding-top: 40px;
+            border-top: 1px solid #e2e8f0;
+        }
+        
+        .footer-links {
+            display: flex;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+        
+        .footer-links a {
+            color: #3182ce;
+            text-decoration: none;
+            font-size: 0.95rem;
+            transition: color 0.2s ease;
+        }
+        
+        .footer-links a:hover {
+            color: #2c5aa0;
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 40px 20px;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .overview {
+                font-size: 1rem;
+            }
+            
+            .section h2 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <a href="index.html">← Home</a>
+        </nav>
+        
+        <header>
+            <h1>Work & Writing</h1>
+            <p class="overview">
+                I operate at the intersection of product, global business, and responsible technology.
+            </p>
+        </header>
+        
+        <div class="experience">
+            <h2>Professional Background</h2>
+            <div id="background-content">
+                <p>Loading...</p>
+            </div>
+        </div>
+        
+        <main id="sections-container">
+            <!-- Sections and footer will be dynamically loaded here -->
+        </main>
+    </div>
+
+    <script>
+        // Embedded content (works everywhere, including locally)
+        const content = {
+          "background": {
+            "paragraphs": [
+              "My superpower is in connecting technology to business outcomes as an operator who can align teams from executives to ICs across borders and functions and ship product fast. I turn visions into reality as a no-nonsense New Yorker. Leveraging leadership from building 0 to 1 privacy-first AI products in the start-up space as well as enterprise-scale data processing infrastructure and machine learning platforms. ",
+              "<strong>Areas of Strength:</strong> Global Product Development, Partner Alliances, Developer Relations"
+            ]
+          },
+          "sections": [
+            {
+              "title": "Angel Investing",
+              "intro": "Investing in women-lead companies and empowering women to invest",
+              // "viewMoreLink": "https://yoursubstack.substack.com/t/product",
+              // "viewMoreText": "View all product articles",
+              "articles": [
+                {
+                  "title": "Angel Investing 101",
+                  "platform": "PDF",
+                  "year": "2025",
+                  "description": "Lessons from navigating compliance requirements while maintaining product velocity and user experience.",
+                  "link": "bruin_angels_preso_2026.pdf",
+                  "externalLabel": ""
+                },
+                {
+                  "title": "Invest Like Her",
+                  "platform": "Workshop",
+                  "year": "2025",
+                  "description": "Co-lead inaugural Invest Like Her, a small-group learning series empowering women to invest, in Tokyo",
+                  "link": "https://www.linkedin.com/posts/careher_investlikeher-investlikeher-ugcPost-7350791649754578945-ihcH/",
+                  "externalLabel": ""
+                }
+              ]
+            },
+            {
+              "title": "Taiwan & International Business",
+              "intro": "Perspectives on doing business and expat life in Taiwan",
+              "viewMoreLink": "https://bessiefromsgv.substack.com/s/taiwan-expat",
+              "viewMoreText": "View more Taiwan and Expat writing",
+              "articles": [
+                {
+                  "title": "Taiwanese Expat",
+                  "platform": "Website",
+                  "year": "2026",
+                  "description": "A guide of curated recommendations in Taiwan and commentary about Taiwan beyond night markets and semiconductors.",
+                  "link": "https://www.taiwanese-expat.com",
+                  "externalLabel": ""
+                },
+                // {
+                //   "title": "Why are Expats Still a Thing in 2026?",
+                //   "platform": "Substack",
+                //   "year": "2026",
+                //   "description": "Why companies still send out people to different countries",
+                //   "link": "",
+                //   "externalLabel": ""
+                // },
+                {
+                  "title": "Silicon Valley Is Taking All The Wrong Lessons From China’s Successes",
+                  "platform": "Substack",
+                  "year": "2025",
+                  "description": "What Americans should learn from China and other Asian countries is industrial policy, not 996 or authoritarian control",
+                  "link": "https://bessiefromsgv.substack.com/p/silicon-valley-is-taking-all-the",
+                  "externalLabel": ""
+                }
+              ]
+            },
+                        {
+              "title": "Learning & Professional Development",
+              "intro": "Career reflections, lessons learned, and talks given",
+              "viewMoreLink": "https://bessiechu.wordpress.com",
+              "viewMoreText": "View more learning notes",
+              "articles": [
+                {
+                  "title": "Alumni 101 Advice for Grads",
+                  "platform": "Medium",
+                  "year": "2025",
+                  "description": "Notes on a workshop I gave to new grads for UC Davis Alumni 101 Week",
+                  "link": "https://bessiefromsgv.medium.com/alumni-101-advice-for-grads-71c67f2322f9",
+                  "externalLabel": ""
+                },
+                {
+                  "title": "How to Say No and Set Boundaries",
+                  "platform": "Medium",
+                  "year": "2024",
+                  "description": "Salon Talk x Inclusive Leadership talk I gave on how to say no, with the premise that the difference between successful people and the most successful people is that the latter say no to almost everything.",
+                  "link": "https://bessiefromsgv.medium.com/how-to-say-no-and-set-boundaries-bd0352612d44",
+                  "externalLabel": ""
+                }
+
+
+              ]
+            },
+            {
+              "title": "Data Privacy",
+              "intro": "Writing on data privacy",
+              "viewMoreLink": "https://bessiechu.wordpress.com/category/data-privacy/",
+              "viewMoreText": "View more data privacy articles",
+              "articles": [
+                {
+                  "title": "What is Data Privacy?",
+                  "platform": "WordPress",
+                  "year": "2023",
+                  "description": "Why is a Human Right?",
+                  "link": "https://bessiechu.wordpress.com/2025/12/26/what-is-data-privacy-why-is-a-human-right/",
+                  "externalLabel": "View on WordPress"
+                },
+                {
+                  "title": "How Does Confidential Computing Keep Data Safe?",
+                  "platform": "WordPress",
+                  "year": "2023",
+                  "description": "Confidential Computing refers to technologies that protect data during processing by running the compute inside a secure, hardware-based environment called a Trusted Execution Environment (TEE).",
+                  "link": "https://bessiechu.wordpress.com/2025/12/26/how-does-confidential-computing-keep-data-safe/",
+                  "externalLabel": "View on WordPress"
+                },
+                {
+                  "title": "Protect Your Data: Shift Left on Encryption",
+                  "platform": "WordPress",
+                  "year": "2022",
+                  "description": "Shifting Left in software often refers to testing earlier in the software development life cycle rather than at the end. We increase security by Shifting Encryption Left.",
+                  "link": "https://bessiechu.wordpress.com/2025/12/26/protect-your-data-shift-left-on-encryption/",
+                  "externalLabel": "View on WordPress"
+                }
+              ]
+            }
+          ]
+        };
+
+        // Load content
+        function loadContent() {
+            try {
+                // Load professional background
+                const backgroundContent = document.getElementById('background-content');
+                backgroundContent.innerHTML = content.background.paragraphs.map(p => 
+                    `<p>${p}</p>`
+                ).join('');
+                
+                // Load sections
+                const sectionsContainer = document.getElementById('sections-container');
+                sectionsContainer.innerHTML = '';
+                
+                content.sections.forEach(section => {
+                    const sectionHTML = `
+                        <section class="section">
+                            <h2>${section.title}</h2>
+                            <p class="section-intro">${section.intro}</p>
+                            <div class="articles">
+                                ${section.articles.map(article => `
+                                    <article class="article">
+                                        <h3><a href="${article.link}" ${article.link.startsWith('http') ? 'target="_blank"' : ''}>${article.title}</a></h3>
+                                        <div class="article-meta">${article.platform} • ${article.year}</div>
+                                        <p class="article-description">${article.description}</p>
+                                        ${article.externalLabel ? `<a href="${article.link}" class="external-link" target="_blank">${article.externalLabel} →</a>` : ''}
+                                    </article>
+                                `).join('')}
+                            </div>
+                            ${section.viewMoreLink ? `
+                                <div class="view-more">
+                                    <a href="${section.viewMoreLink}" target="_blank">${section.viewMoreText || 'View more articles'}</a>
+                                </div>
+                            ` : ''}
+                        </section>
+                    `;
+                    sectionsContainer.innerHTML += sectionHTML;
+                });
+                
+                // Add footer after sections are loaded
+                const footer = `
+                    <footer>
+                        <div class="footer-links">
+                            <a href="index.html">Home</a>
+                            <a href="about.html">About</a>
+                            <a href="https://www.linkedin.com/in/chubessie" target="_blank">LinkedIn</a>
+                            <a href="bessie_2026_personal_user_manual.pdf" target="_blank">Personal User Manual</a>
+                            <a href="pre_2018/pre_2018_projects.html" target="_blank">Pre-2018 Personal Projects</a>
+                            <a href="https://teamtreehouse.com/profiles/bessiechu" target="_blank">Treehouse Profile</a>
+
+                        </div>
+                    </footer>
+                `;
+                sectionsContainer.innerHTML += footer;
+                
+            } catch (error) {
+                console.error('Error loading content:', error);
+                document.getElementById('sections-container').innerHTML = '<p style="color: #e53e3e;">Error loading content.</p>';
+            }
+        }
+        
+        // Load content when page loads
+        document.addEventListener('DOMContentLoaded', loadContent);
+    </script>
+</body>
+</html>

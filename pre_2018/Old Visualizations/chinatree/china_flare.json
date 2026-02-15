@@ -1,0 +1,155 @@
+{
+	"name": "Chinese Emigration",
+	"children": 
+
+	[
+
+		{"name": "Africa",
+				"children":
+			[{"name": "Algeria", "arrivals": 759},
+			{"name": "Botswana", "arrivals": 2790},
+			{"name": "Cape Verde", "arrivals": 36},
+			{"name": "Central African Republic", "arrivals": 127},
+			{"name": "Congo", "arrivals": 686},
+			{"name": "Egypt", "arrivals": 618},
+			{"name": "Eritrea", "arrivals": 142},
+			{"name": "Gabon", "arrivals": 173},
+			{"name": "Ghana", "arrivals": 206},
+			{"name": "Guinea", "arrivals": 193},
+			{"name": "Lesotho", "arrivals": 68},
+			{"name": "Libya", "arrivals": 1289},
+			{"name": "Madagascar", "arrivals": 3472},
+			{"name": "Mali", "arrivals": 62},
+			{"name": "Mauritania", "arrivals": 279},
+			{"name": "Mauritius", "arrivals": 26638},
+			{"name": "Rwanda", "arrivals": 215},
+			{"name": "Sierra Leone", "arrivals": 354},
+			{"name": "South Africa", "arrivals": 24292},
+			{"name": "Sudan", "arrivals": 1747},
+			{"name": "Uganda", "arrivals": 689},
+			{"name": "Zambia", "arrivals": 130}
+			]
+		},
+
+		{"name": "East Asia",
+				"children":
+				[{"name": "Hong Kong", "arrivals": 962784},
+				{"name": "Japan", "arrivals": 441263},
+				{"name": "Macao", "arrivals": 133544},
+				{"name": "Mongolia", "arrivals": 8233},
+				{"name": "North Korea", "arrivals": 35254},
+				{"name": "South Korea", "arrivals": 476065}
+				]
+		},
+
+		{"name": "Europe",
+				"children":
+			[{"name": "Austria", "arrivals": 15082},
+			{"name": "Belgium", "arrivals": 10827},
+			{"name": "Bosnia & Herzegovina", "arrivals": 20},
+			{"name": "Bulgaria", "arrivals": 1039},
+			{"name": "Czech Republic", "arrivals": 7587},
+			{"name": "Denmark", "arrivals": 12225},
+			{"name": "Finland", "arrivals": 8735},
+			{"name": "France", "arrivals": 85704},
+			{"name": "Germany", "arrivals": 88759},
+			{"name": "Greece", "arrivals": 5303},
+			{"name": "Hungary", "arrivals": 17074},
+			{"name": "Iceland", "arrivals": 581},
+			{"name": "Ireland", "arrivals": 9863},
+			{"name": "Italy", "arrivals": 105742},
+			{"name": "Luxembourg", "arrivals": 759},
+			{"name": "Malta", "arrivals": 261},
+			{"name": "Netherlands", "arrivals": 52681},
+			{"name": "Norway", "arrivals": 9863},
+			{"name": "Poland", "arrivals": 1622},
+			{"name": "Portugal", "arrivals": 12051},
+			{"name": "Romania", "arrivals": 4222},
+			{"name": "Serbia", "arrivals": 423},
+			{"name": "Slovakia", "arrivals": 875},
+			{"name": "Slovenia", "arrivals": 976},
+			{"name": "Spain", "arrivals": 164357},
+			{"name": "Sweden", "arrivals": 26285},
+			{"name": "Switzerland", "arrivals": 14142},
+			{"name": "United Kingdom", "arrivals": 115926}
+			]
+		},
+
+
+		{"name": "Former Soviet Union", 
+			"children":
+			[{"name": "Azerbaijan", "arrivals": 319},
+			{"name": "Estonia", "arrivals": 136},
+			{"name": "Georgia", "arrivals": 77},
+			{"name": "Kazakhstan", "arrivals": 5923},
+			{"name": "Kyrgyzstan", "arrivals": 154},
+			{"name": "Latvia", "arrivals": 404},
+			{"name": "Lithuania", "arrivals": 399},
+			{"name": "Moldova", "arrivals": 246},
+			{"name": "Russia", "arrivals": 47149},
+			{"name": "Turkmenistan", "arrivals": 206},
+			{"name": "Uzbekistan", "arrivals": 1058}]
+
+		},
+
+		{"name": "North America", 
+			"children":
+				[{"name": "Canada", "arrivals": 610187},
+				{"name": "United States", "arrivals": 1910337}
+				]	
+		},
+
+		{"name": "Oceania", 
+			"children":
+			[{"name": "Australia", "arrivals": 369893},
+			{"name": "French Polynesia", "arrivals": 373},
+			{"name": "Guam", "arrivals": 676},
+			{"name": "New Caledonia", "arrivals": 87},
+			{"name": "New Zealand", "arrivals": 101865},
+			{"name": "Samoa", "arrivals": 11},
+			{"name": "Tonga", "arrivals": 90}
+			]
+
+		},
+
+		{"name": "Southeast Asia", 
+			"children":
+			[{"name": "Brunei", "arrivals": 248},
+			{"name": "Cambodia", "arrivals": 3090},
+			{"name": "Laos", "arrivals": 1991},
+			{"name": "Myanmar", "arrivals": 11605},
+			{"name": "Philippines", "arrivals": 20870},
+			{"name": "Singapore", "arrivals": 120456},
+			{"name": "Thailand", "arrivals": 64617},
+			{"name": "Timor-Leste", "arrivals": 876},
+			{"name": "Vietnam", "arrivals": 7482}
+			]
+
+		},
+
+
+		{"name": "South Asia", 
+			"children":
+			[{"name": "Bangladesh", "arrivals": 21322},
+			{"name": "Bhutan", "arrivals": 603},
+			{"name": "India", "arrivals": 600},
+			{"name": "Nepal", "arrivals": 14231},
+			{"name": "Sri Lanka", "arrivals": 48}
+			]
+
+		},
+
+		{"name": "Middle East", 
+			"children":
+			[{"name": "Cyprus", "arrivals": 1591},
+			{"name": "Israel", "arrivals": 583},
+			{"name": "Jordan", "arrivals": 6002},
+			{"name": "Lebanon", "arrivals": 3957},
+			{"name": "Turkey", "arrivals": 1763}
+			]
+
+		}
+
+	]
+}
+

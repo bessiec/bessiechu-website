@@ -1,0 +1,785 @@
+continent,id,country_orig,path,year,migration_number
+North America,1,Canada,Canada to United States,1990,1509
+North America,2,United States,United States to United States,1990,0
+Africa,3,Angola,Angola to United States,1990,0
+Africa,4,Burundi,Burundi to United States,1990,797
+Africa,5,Benin,Benin to United States,1990,0
+Africa,6,Burkina Faso,Burkina Faso to United States,1990,0
+Africa,7,Botswana,Botswana to United States,1990,0
+Africa,8,Central African Republic,Central African Republic to United States,1990,0
+Africa,9,Ivory Coast,Ivory Coast to United States,1990,240
+Africa,10,Cameroon,Cameroon to United States,1990,770
+Africa,11,DR Congo,DR Congo to United States,1990,0
+Africa,12,Congo,Congo to United States,1990,0
+Africa,13,Comoros,Comoros to United States,1990,0
+Africa,14,Cape Verde,Cape Verde to United States,1990,0
+Africa,15,Djibouti,Djibouti to United States,1990,95
+Africa,16,Algeria,Algeria to United States,1990,1498
+Africa,17,Egypt,Egypt to United States,1990,54838
+Africa,18,Eritrea,Eritrea to United States,1990,5892
+Africa,19,Western Sahara,Western Sahara to United States,1990,0
+Africa,20,Ethiopia,Ethiopia to United States,1990,0
+Africa,21,Gabon,Gabon to United States,1990,0
+Africa,22,Ghana,Ghana to United States,1990,49
+Africa,23,Guinea,Guinea to United States,1990,0
+Africa,24,Gambia,Gambia to United States,1990,1584
+Africa,25,Guinea-Bissau,Guinea-Bissau to United States,1990,4
+Africa,26,Equatorial Guinea,Equatorial Guinea to United States,1990,0
+Africa,27,Kenya,Kenya to United States,1990,14004
+Africa,28,Liberia,Liberia to United States,1990,7623
+Africa,29,Libya,Libya to United States,1990,400
+Africa,30,Lesotho,Lesotho to United States,1990,2
+Africa,31,Morocco,Morocco to United States,1990,9243
+Africa,32,Madagascar,Madagascar to United States,1990,36
+Africa,33,Mali,Mali to United States,1990,0
+Africa,34,Mozambique,Mozambique to United States,1990,0
+Africa,35,Mauritania,Mauritania to United States,1990,197
+Africa,36,Mauritius,Mauritius to United States,1990,167
+Africa,37,Malawi,Malawi to United States,1990,1132
+Africa,38,Mayotte,Mayotte to United States,1990,0
+Africa,39,Namibia,Namibia to United States,1990,0
+Africa,40,Niger,Niger to United States,1990,9
+Africa,41,Nigeria,Nigeria to United States,1990,15069
+Africa,42,Reunion,Reunion to United States,1990,12
+Africa,43,Rwanda,Rwanda to United States,1990,4897
+Africa,44,Sudan,Sudan to United States,1990,0
+Africa,45,Senegal,Senegal to United States,1990,333
+Africa,46,Sierra Leone,Sierra Leone to United States,1990,3934
+Africa,47,Somalia,Somalia to United States,1990,19006
+Africa,48,South Sudan,South Sudan to United States,1990,9131
+Africa,49,Sao Tome & Principe,Sao Tome & Principe to United States,1990,0
+Africa,50,Swaziland,Swaziland to United States,1990,0
+Africa,51,Chad,Chad to United States,1990,0
+Africa,52,Togo,Togo to United States,1990,32
+Africa,53,Tunisia,Tunisia to United States,1990,510
+Africa,54,Tanzania,Tanzania to United States,1990,8
+Africa,55,Uganda,Uganda to United States,1990,6330
+Africa,56,South Africa,South Africa to United States,1990,0
+Africa,57,Zambia,Zambia to United States,1990,8
+Africa,58,Zimbabwe,Zimbabwe to United States,1990,2722
+Europe,59,Albania,Albania to United States,1990,18081
+Europe,60,Austria,Austria to United States,1990,38
+Europe,61,Belgium,Belgium to United States,1990,160
+Europe,62,Bulgaria,Bulgaria to United States,1990,17705
+Europe,63,Bosnia & Herzegovina,Bosnia & Herzegovina to United States,1990,51117
+Europe,64,Switzerland,Switzerland to United States,1990,96
+Europe,65,Channel Islands,Channel Islands to United States,1990,0
+Europe,66,Czech Republic,Czech Republic to United States,1990,0
+Europe,67,Germany,Germany to United States,1990,697
+Europe,68,Denmark,Denmark to United States,1990,4
+Europe,69,Spain,Spain to United States,1990,578
+Europe,70,Finland,Finland to United States,1990,0
+Europe,71,France,France to United States,1990,2883
+Europe,72,United Kingdom,United Kingdom to United States,1990,1151
+Europe,73,Greece,Greece to United States,1990,63
+Europe,74,Croatia,Croatia to United States,1990,61
+Europe,75,Hungary,Hungary to United States,1990,3
+Europe,76,Ireland,Ireland to United States,1990,0
+Europe,77,Iceland,Iceland to United States,1990,1
+Europe,78,Italy,Italy to United States,1990,2588
+Europe,79,Luxembourg,Luxembourg to United States,1990,4
+Europe,80,Macedonia,Macedonia to United States,1990,295
+Europe,81,Malta,Malta to United States,1990,0
+Europe,82,Montenegro,Montenegro to United States,1990,0
+Europe,83,Netherlands,Netherlands to United States,1990,435
+Europe,84,Norway,Norway to United States,1990,37
+Europe,85,Poland,Poland to United States,1990,22
+Europe,86,Portugal,Portugal to United States,1990,0
+Europe,87,Romania,Romania to United States,1990,42443
+Europe,88,Serbia,Serbia to United States,1990,0
+Europe,89,Slovakia,Slovakia to United States,1990,0
+Europe,90,Slovenia,Slovenia to United States,1990,0
+Europe,91,Sweden,Sweden to United States,1990,38
+Fmr Soviet Union,92,Armenia,Armenia to United States,1990,32539
+Fmr Soviet Union,93,Azerbaijan,Azerbaijan to United States,1990,2589
+Fmr Soviet Union,94,Belarus,Belarus to United States,1990,1572
+Fmr Soviet Union,95,Estonia,Estonia to United States,1990,1885
+Fmr Soviet Union,96,Georgia,Georgia to United States,1990,6910
+Fmr Soviet Union,97,Kazakhstan,Kazakhstan to United States,1990,11467
+Fmr Soviet Union,98,Kyrgyzstan,Kyrgyzstan to United States,1990,3834
+Fmr Soviet Union,99,Lithuania,Lithuania to United States,1990,809
+Fmr Soviet Union,100,Latvia,Latvia to United States,1990,1025
+Fmr Soviet Union,101,Moldova,Moldova to United States,1990,2296
+Fmr Soviet Union,102,Russia,Russia to United States,1990,1392
+Fmr Soviet Union,103,Tajikistan,Tajikistan to United States,1990,901
+Fmr Soviet Union,104,Turkmenistan,Turkmenistan to United States,1990,0
+Fmr Soviet Union,105,Ukraine,Ukraine to United States,1990,12713
+Fmr Soviet Union,106,Uzbekistan,Uzbekistan to United States,1990,6203
+West Asia,107,United Arab Emirates,United Arab Emirates to United States,1990,3699
+West Asia,108,Bahrain,Bahrain to United States,1990,505
+West Asia,109,Cyprus,Cyprus to United States,1990,0
+West Asia,110,Iraq,Iraq to United States,1990,11512
+West Asia,111,Israel,Israel to United States,1990,0
+West Asia,112,Jordan,Jordan to United States,1990,79
+West Asia,113,Kuwait,Kuwait to United States,1990,61422
+West Asia,114,Lebanon,Lebanon to United States,1990,0
+West Asia,115,Oman,Oman to United States,1990,807
+West Asia,116,Palestine,Palestine to United States,1990,0
+West Asia,117,Qatar,Qatar to United States,1990,1921
+West Asia,118,Saudi Arabia,Saudi Arabia to United States,1990,18038
+West Asia,119,Syria,Syria to United States,1990,1510
+West Asia,120,Turkey,Turkey to United States,1990,2362
+West Asia,121,Yemen,Yemen to United States,1990,0
+South Asia,122,Afghanistan,Afghanistan to United States,1990,0
+South Asia,123,Bangladesh,Bangladesh to United States,1990,48234
+South Asia,124,Bhutan,Bhutan to United States,1990,7091
+South Asia,125,India,India to United States,1990,202309
+South Asia,126,Iran,Iran to United States,1990,0
+South Asia,127,Sri Lanka,Sri Lanka to United States,1990,26244
+South Asia,128,Maldives,Maldives to United States,1990,227
+South Asia,129,Nepal,Nepal to United States,1990,4955
+South Asia,130,Pakistan,Pakistan to United States,1990,36
+East Asia,131,China,China to United States,1990,222772
+East Asia,132,Hong Kong,Hong Kong to United States,1990,26202
+East Asia,133,Japan,Japan to United States,1990,25119
+East Asia,134,South Korea,South Korea to United States,1990,327767
+East Asia,135,Macao,Macao to United States,1990,884
+East Asia,136,Mongolia,Mongolia to United States,1990,3114
+East Asia,137,North Korea,North Korea to United States,1990,0
+South-East Asia,138,Brunei,Brunei to United States,1990,304
+South-East Asia,139,Indonesia,Indonesia to United States,1990,46967
+South-East Asia,140,Cambodia,Cambodia to United States,1990,0
+South-East Asia,141,Laos,Laos to United States,1990,17390
+South-East Asia,142,Myanmar,Myanmar to United States,1990,17650
+South-East Asia,143,Malaysia,Malaysia to United States,1990,7858
+South-East Asia,144,Philippines,Philippines to United States,1990,302134
+South-East Asia,145,Singapore,Singapore to United States,1990,6206
+South-East Asia,146,Thailand,Thailand to United States,1990,340629
+South-East Asia,147,Timor-Leste,Timor-Leste to United States,1990,0
+South-East Asia,148,Vietnam,Vietnam to United States,1990,176055
+Oceania,149,Australia,Australia to United States,1990,4289
+Oceania,150,Fiji,Fiji to United States,1990,8285
+Oceania,151,Micronesia,Micronesia to United States,1990,1452
+Oceania,152,Guam,Guam to United States,1990,122
+Oceania,153,New Caledonia,New Caledonia to United States,1990,23
+Oceania,154,New Zealand,New Zealand to United States,1990,383
+Oceania,155,Papua New Guinea,Papua New Guinea to United States,1990,209
+Oceania,156,French Polynesia,French Polynesia to United States,1990,227
+Oceania,157,Solomon Islands,Solomon Islands to United States,1990,36
+Oceania,158,Tonga,Tonga to United States,1990,3565
+Oceania,159,Vanuatu,Vanuatu to United States,1990,0
+Oceania,160,Samoa,Samoa to United States,1990,1561
+Latin America,161,Aruba,Aruba to United States,1990,0
+Latin America,162,Argentina,Argentina to United States,1990,5143
+Latin America,163,Bahamas,Bahamas to United States,1990,4762
+Latin America,164,Belize,Belize to United States,1990,8397
+Latin America,165,Bolivia,Bolivia to United States,1990,13928
+Latin America,166,Brazil,Brazil to United States,1990,36230
+Latin America,167,Barbados,Barbados to United States,1990,392
+Latin America,168,Chile,Chile to United States,1990,8
+Latin America,169,Colombia,Colombia to United States,1990,94014
+Latin America,170,Costa Rica,Costa Rica to United States,1990,18004
+Latin America,171,Cuba,Cuba to United States,1990,67165
+Latin America,172,Dominican Republic,Dominican Republic to United States,1990,133791
+Latin America,173,Ecuador,Ecuador to United States,1990,44937
+Latin America,174,Guadeloupe,Guadeloupe to United States,1990,3970
+Latin America,175,Grenada,Grenada to United States,1990,3158
+Latin America,176,Guatemala,Guatemala to United States,1990,320883
+Latin America,177,French Guiana,French Guiana to United States,1990,134
+Latin America,178,Guyana,Guyana to United States,1990,28431
+Latin America,179,Honduras,Honduras to United States,1990,100510
+Latin America,180,Haiti,Haiti to United States,1990,82505
+Latin America,181,Jamaica,Jamaica to United States,1990,87864
+Latin America,182,Saint Lucia,Saint Lucia to United States,1990,3174
+Latin America,183,Mexico,Mexico to United States,1990,1850468
+Latin America,184,Martinique,Martinique to United States,1990,467
+Latin America,185,Nicaragua,Nicaragua to United States,1990,41413
+Latin America,186,Panama,Panama to United States,1990,3907
+Latin America,187,Peru,Peru to United States,1990,105573
+Latin America,188,Puerto Rico,Puerto Rico to United States,1990,70691
+Latin America,189,Paraguay,Paraguay to United States,1990,3531
+Latin America,190,El Salvador,El Salvador to United States,1990,228872
+Latin America,191,Suriname,Suriname to United States,1990,482
+Latin America,192,Trinidad & Tobago,Trinidad & Tobago to United States,1990,16868
+Latin America,193,Uruguay,Uruguay to United States,1990,175
+Latin America,194,Saint Vincent & Grenadines,Saint Vincent & Grenadines to United States,1990,3971
+Latin America,195,Venezuela,Venezuela to United States,1990,25212
+Latin America,196,Virgin Islands,Virgin Islands to United States,1990,2291
+North America,197,Canada,Canada to United States,1995,190436
+North America,198,United States,United States to United States,1995,0
+Africa,199,Angola,Angola to United States,1995,2892
+Africa,200,Burundi,Burundi to United States,1995,28
+Africa,201,Benin,Benin to United States,1995,129
+Africa,202,Burkina Faso,Burkina Faso to United States,1995,1506
+Africa,203,Botswana,Botswana to United States,1995,304
+Africa,204,Central African Republic,Central African Republic to United States,1995,287
+Africa,205,Ivory Coast,Ivory Coast to United States,1995,16646
+Africa,206,Cameroon,Cameroon to United States,1995,6037
+Africa,207,DR Congo,DR Congo to United States,1995,7895
+Africa,208,Congo,Congo to United States,1995,1799
+Africa,209,Comoros,Comoros to United States,1995,12
+Africa,210,Cape Verde,Cape Verde to United States,1995,7340
+Africa,211,Djibouti,Djibouti to United States,1995,0
+Africa,212,Algeria,Algeria to United States,1995,8157
+Africa,213,Egypt,Egypt to United States,1995,126877
+Africa,214,Eritrea,Eritrea to United States,1995,686
+Africa,215,Western Sahara,Western Sahara to United States,1995,0
+Africa,216,Ethiopia,Ethiopia to United States,1995,30222
+Africa,217,Gabon,Gabon to United States,1995,158
+Africa,218,Ghana,Ghana to United States,1995,18408
+Africa,219,Guinea,Guinea to United States,1995,3654
+Africa,220,Gambia,Gambia to United States,1995,6304
+Africa,221,Guinea-Bissau,Guinea-Bissau to United States,1995,59
+Africa,222,Equatorial Guinea,Equatorial Guinea to United States,1995,0
+Africa,223,Kenya,Kenya to United States,1995,30231
+Africa,224,Liberia,Liberia to United States,1995,0
+Africa,225,Libya,Libya to United States,1995,17766
+Africa,226,Lesotho,Lesotho to United States,1995,579
+Africa,227,Morocco,Morocco to United States,1995,20572
+Africa,228,Madagascar,Madagascar to United States,1995,465
+Africa,229,Mali,Mali to United States,1995,550
+Africa,230,Mozambique,Mozambique to United States,1995,5924
+Africa,231,Mauritania,Mauritania to United States,1995,529
+Africa,232,Mauritius,Mauritius to United States,1995,865
+Africa,233,Malawi,Malawi to United States,1995,1237
+Africa,234,Mayotte,Mayotte to United States,1995,0
+Africa,235,Namibia,Namibia to United States,1995,1164
+Africa,236,Niger,Niger to United States,1995,1644
+Africa,237,Nigeria,Nigeria to United States,1995,72162
+Africa,238,Reunion,Reunion to United States,1995,29
+Africa,239,Rwanda,Rwanda to United States,1995,0
+Africa,240,Sudan,Sudan to United States,1995,67843
+Africa,241,Senegal,Senegal to United States,1995,12302
+Africa,242,Sierra Leone,Sierra Leone to United States,1995,2664
+Africa,243,Somalia,Somalia to United States,1995,20281
+Africa,244,South Sudan,South Sudan to United States,1995,0
+Africa,245,Sao Tome & Principe,Sao Tome & Principe to United States,1995,29
+Africa,246,Swaziland,Swaziland to United States,1995,1631
+Africa,247,Chad,Chad to United States,1995,9
+Africa,248,Togo,Togo to United States,1995,0
+Africa,249,Tunisia,Tunisia to United States,1995,2546
+Africa,250,Tanzania,Tanzania to United States,1995,7697
+Africa,251,Uganda,Uganda to United States,1995,73
+Africa,252,South Africa,South Africa to United States,1995,18994
+Africa,253,Zambia,Zambia to United States,1995,4463
+Africa,254,Zimbabwe,Zimbabwe to United States,1995,7493
+Europe,255,Albania,Albania to United States,1995,18069
+Europe,256,Austria,Austria to United States,1995,474
+Europe,257,Belgium,Belgium to United States,1995,4132
+Europe,258,Bulgaria,Bulgaria to United States,1995,21829
+Europe,259,Bosnia & Herzegovina,Bosnia & Herzegovina to United States,1995,0
+Europe,260,Switzerland,Switzerland to United States,1995,11222
+Europe,261,Channel Islands,Channel Islands to United States,1995,0
+Europe,262,Czech Republic,Czech Republic to United States,1995,709
+Europe,263,Germany,Germany to United States,1995,135902
+Europe,264,Denmark,Denmark to United States,1995,1171
+Europe,265,Spain,Spain to United States,1995,1355
+Europe,266,Finland,Finland to United States,1995,1372
+Europe,267,France,France to United States,1995,62050
+Europe,268,United Kingdom,United Kingdom to United States,1995,162294
+Europe,269,Greece,Greece to United States,1995,4062
+Europe,270,Croatia,Croatia to United States,1995,6637
+Europe,271,Hungary,Hungary to United States,1995,1780
+Europe,272,Ireland,Ireland to United States,1995,14423
+Europe,273,Iceland,Iceland to United States,1995,455
+Europe,274,Italy,Italy to United States,1995,58601
+Europe,275,Luxembourg,Luxembourg to United States,1995,577
+Europe,276,Macedonia,Macedonia to United States,1995,2452
+Europe,277,Malta,Malta to United States,1995,8
+Europe,278,Montenegro,Montenegro to United States,1995,281
+Europe,279,Netherlands,Netherlands to United States,1995,22406
+Europe,280,Norway,Norway to United States,1995,138
+Europe,281,Poland,Poland to United States,1995,61257
+Europe,282,Portugal,Portugal to United States,1995,18386
+Europe,283,Romania,Romania to United States,1995,57966
+Europe,284,Serbia,Serbia to United States,1995,62577
+Europe,285,Slovakia,Slovakia to United States,1995,544
+Europe,286,Slovenia,Slovenia to United States,1995,0
+Europe,287,Sweden,Sweden to United States,1995,5537
+Fmr Soviet Union,288,Armenia,Armenia to United States,1995,35394
+Fmr Soviet Union,289,Azerbaijan,Azerbaijan to United States,1995,10005
+Fmr Soviet Union,290,Belarus,Belarus to United States,1995,4078
+Fmr Soviet Union,291,Estonia,Estonia to United States,1995,3342
+Fmr Soviet Union,292,Georgia,Georgia to United States,1995,17743
+Fmr Soviet Union,293,Kazakhstan,Kazakhstan to United States,1995,103445
+Fmr Soviet Union,294,Kyrgyzstan,Kyrgyzstan to United States,1995,8468
+Fmr Soviet Union,295,Lithuania,Lithuania to United States,1995,8776
+Fmr Soviet Union,296,Latvia,Latvia to United States,1995,10508
+Fmr Soviet Union,297,Moldova,Moldova to United States,1995,19118
+Fmr Soviet Union,298,Russia,Russia to United States,1995,13742
+Fmr Soviet Union,299,Tajikistan,Tajikistan to United States,1995,15267
+Fmr Soviet Union,300,Turkmenistan,Turkmenistan to United States,1995,5750
+Fmr Soviet Union,301,Ukraine,Ukraine to United States,1995,91286
+Fmr Soviet Union,302,Uzbekistan,Uzbekistan to United States,1995,38221
+West Asia,303,United Arab Emirates,United Arab Emirates to United States,1995,8277
+West Asia,304,Bahrain,Bahrain to United States,1995,1267
+West Asia,305,Cyprus,Cyprus to United States,1995,0
+West Asia,306,Iraq,Iraq to United States,1995,18483
+West Asia,307,Israel,Israel to United States,1995,3315
+West Asia,308,Jordan,Jordan to United States,1995,59055
+West Asia,309,Kuwait,Kuwait to United States,1995,22615
+West Asia,310,Lebanon,Lebanon to United States,1995,42686
+West Asia,311,Oman,Oman to United States,1995,61640
+West Asia,312,Palestine,Palestine to United States,1995,17431
+West Asia,313,Qatar,Qatar to United States,1995,2716
+West Asia,314,Saudi Arabia,Saudi Arabia to United States,1995,298006
+West Asia,315,Syria,Syria to United States,1995,32251
+West Asia,316,Turkey,Turkey to United States,1995,26069
+West Asia,317,Yemen,Yemen to United States,1995,19933
+South Asia,318,Afghanistan,Afghanistan to United States,1995,11470
+South Asia,319,Bangladesh,Bangladesh to United States,1995,110884
+South Asia,320,Bhutan,Bhutan to United States,1995,2
+South Asia,321,India,India to United States,1995,379890
+South Asia,322,Iran,Iran to United States,1995,14459
+South Asia,323,Sri Lanka,Sri Lanka to United States,1995,69781
+South Asia,324,Maldives,Maldives to United States,1995,433
+South Asia,325,Nepal,Nepal to United States,1995,8429
+South Asia,326,Pakistan,Pakistan to United States,1995,73017
+East Asia,327,China,China to United States,1995,276024
+East Asia,328,Hong Kong,Hong Kong to United States,1995,0
+East Asia,329,Japan,Japan to United States,1995,128481
+East Asia,330,South Korea,South Korea to United States,1995,405106
+East Asia,331,Macao,Macao to United States,1995,411
+East Asia,332,Mongolia,Mongolia to United States,1995,3217
+East Asia,333,North Korea,North Korea to United States,1995,24
+South-East Asia,334,Brunei,Brunei to United States,1995,254
+South-East Asia,335,Indonesia,Indonesia to United States,1995,85854
+South-East Asia,336,Cambodia,Cambodia to United States,1995,0
+South-East Asia,337,Laos,Laos to United States,1995,0
+South-East Asia,338,Myanmar,Myanmar to United States,1995,0
+South-East Asia,339,Malaysia,Malaysia to United States,1995,19463
+South-East Asia,340,Philippines,Philippines to United States,1995,506348
+South-East Asia,341,Singapore,Singapore to United States,1995,10032
+South-East Asia,342,Thailand,Thailand to United States,1995,754
+South-East Asia,343,Timor-Leste,Timor-Leste to United States,1995,1853
+South-East Asia,344,Vietnam,Vietnam to United States,1995,213914
+Oceania,345,Australia,Australia to United States,1995,24881
+Oceania,346,Fiji,Fiji to United States,1995,15117
+Oceania,347,Micronesia,Micronesia to United States,1995,9154
+Oceania,348,Guam,Guam to United States,1995,144
+Oceania,349,New Caledonia,New Caledonia to United States,1995,124
+Oceania,350,New Zealand,New Zealand to United States,1995,7093
+Oceania,351,Papua New Guinea,Papua New Guinea to United States,1995,627
+Oceania,352,French Polynesia,French Polynesia to United States,1995,510
+Oceania,353,Solomon Islands,Solomon Islands to United States,1995,84
+Oceania,354,Tonga,Tonga to United States,1995,5466
+Oceania,355,Vanuatu,Vanuatu to United States,1995,408
+Oceania,356,Samoa,Samoa to United States,1995,5776
+Latin America,357,Aruba,Aruba to United States,1995,587
+Latin America,358,Argentina,Argentina to United States,1995,62432
+Latin America,359,Bahamas,Bahamas to United States,1995,7369
+Latin America,360,Belize,Belize to United States,1995,9950
+Latin America,361,Bolivia,Bolivia to United States,1995,24241
+Latin America,362,Brazil,Brazil to United States,1995,77559
+Latin America,363,Barbados,Barbados to United States,1995,2530
+Latin America,364,Chile,Chile to United States,1995,480
+Latin America,365,Colombia,Colombia to United States,1995,99108
+Latin America,366,Costa Rica,Costa Rica to United States,1995,18252
+Latin America,367,Cuba,Cuba to United States,1995,119330
+Latin America,368,Dominican Republic,Dominican Republic to United States,1995,166103
+Latin America,369,Ecuador,Ecuador to United States,1995,181469
+Latin America,370,Guadeloupe,Guadeloupe to United States,1995,6223
+Latin America,371,Grenada,Grenada to United States,1995,4992
+Latin America,372,Guatemala,Guatemala to United States,1995,366689
+Latin America,373,French Guiana,French Guiana to United States,1995,589
+Latin America,374,Guyana,Guyana to United States,1995,41158
+Latin America,375,Honduras,Honduras to United States,1995,141732
+Latin America,376,Haiti,Haiti to United States,1995,101307
+Latin America,377,Jamaica,Jamaica to United States,1995,77905
+Latin America,378,Saint Lucia,Saint Lucia to United States,1995,1820
+Latin America,379,Mexico,Mexico to United States,1995,1518580
+Latin America,380,Martinique,Martinique to United States,1995,891
+Latin America,381,Nicaragua,Nicaragua to United States,1995,52495
+Latin America,382,Panama,Panama to United States,1995,5561
+Latin America,383,Peru,Peru to United States,1995,153372
+Latin America,384,Puerto Rico,Puerto Rico to United States,1995,90687
+Latin America,385,Paraguay,Paraguay to United States,1995,10559
+Latin America,386,El Salvador,El Salvador to United States,1995,371550
+Latin America,387,Suriname,Suriname to United States,1995,2204
+Latin America,388,Trinidad & Tobago,Trinidad & Tobago to United States,1995,21745
+Latin America,389,Uruguay,Uruguay to United States,1995,7417
+Latin America,390,Saint Vincent & Grenadines,Saint Vincent & Grenadines to United States,1995,5119
+Latin America,391,Venezuela,Venezuela to United States,1995,37433
+Latin America,392,Virgin Islands,Virgin Islands to United States,1995,2494
+North America,393,Canada,Canada to United States,2000,238
+North America,394,United States,United States to United States,2000,0
+Africa,395,Angola,Angola to United States,2000,0
+Africa,396,Burundi,Burundi to United States,2000,2
+Africa,397,Benin,Benin to United States,2000,0
+Africa,398,Burkina Faso,Burkina Faso to United States,2000,3716
+Africa,399,Botswana,Botswana to United States,2000,105
+Africa,400,Central African Republic,Central African Republic to United States,2000,112
+Africa,401,Ivory Coast,Ivory Coast to United States,2000,32965
+Africa,402,Cameroon,Cameroon to United States,2000,14247
+Africa,403,DR Congo,DR Congo to United States,2000,321
+Africa,404,Congo,Congo to United States,2000,168
+Africa,405,Comoros,Comoros to United States,2000,0
+Africa,406,Cape Verde,Cape Verde to United States,2000,1
+Africa,407,Djibouti,Djibouti to United States,2000,4
+Africa,408,Algeria,Algeria to United States,2000,0
+Africa,409,Egypt,Egypt to United States,2000,38436
+Africa,410,Eritrea,Eritrea to United States,2000,0
+Africa,411,Western Sahara,Western Sahara to United States,2000,0
+Africa,412,Ethiopia,Ethiopia to United States,2000,69560
+Africa,413,Gabon,Gabon to United States,2000,131
+Africa,414,Ghana,Ghana to United States,2000,24211
+Africa,415,Guinea,Guinea to United States,2000,16792
+Africa,416,Gambia,Gambia to United States,2000,1933
+Africa,417,Guinea-Bissau,Guinea-Bissau to United States,2000,22
+Africa,418,Equatorial Guinea,Equatorial Guinea to United States,2000,0
+Africa,419,Kenya,Kenya to United States,2000,18336
+Africa,420,Liberia,Liberia to United States,2000,13907
+Africa,421,Libya,Libya to United States,2000,541
+Africa,422,Lesotho,Lesotho to United States,2000,0
+Africa,423,Morocco,Morocco to United States,2000,10769
+Africa,424,Madagascar,Madagascar to United States,2000,0
+Africa,425,Mali,Mali to United States,2000,725
+Africa,426,Mozambique,Mozambique to United States,2000,942
+Africa,427,Mauritania,Mauritania to United States,2000,0
+Africa,428,Mauritius,Mauritius to United States,2000,22
+Africa,429,Malawi,Malawi to United States,2000,603
+Africa,430,Mayotte,Mayotte to United States,2000,0
+Africa,431,Namibia,Namibia to United States,2000,0
+Africa,432,Niger,Niger to United States,2000,200
+Africa,433,Nigeria,Nigeria to United States,2000,72619
+Africa,434,Reunion,Reunion to United States,2000,6
+Africa,435,Rwanda,Rwanda to United States,2000,39
+Africa,436,Sudan,Sudan to United States,2000,17868
+Africa,437,Senegal,Senegal to United States,2000,2569
+Africa,438,Sierra Leone,Sierra Leone to United States,2000,0
+Africa,439,Somalia,Somalia to United States,2000,19887
+Africa,440,South Sudan,South Sudan to United States,2000,0
+Africa,441,Sao Tome & Principe,Sao Tome & Principe to United States,2000,9
+Africa,442,Swaziland,Swaziland to United States,2000,309
+Africa,443,Chad,Chad to United States,2000,0
+Africa,444,Togo,Togo to United States,2000,47
+Africa,445,Tunisia,Tunisia to United States,2000,4
+Africa,446,Tanzania,Tanzania to United States,2000,9136
+Africa,447,Uganda,Uganda to United States,2000,0
+Africa,448,South Africa,South Africa to United States,2000,7440
+Africa,449,Zambia,Zambia to United States,2000,92
+Africa,450,Zimbabwe,Zimbabwe to United States,2000,17696
+Europe,451,Albania,Albania to United States,2000,2187
+Europe,452,Austria,Austria to United States,2000,3
+Europe,453,Belgium,Belgium to United States,2000,0
+Europe,454,Bulgaria,Bulgaria to United States,2000,0
+Europe,455,Bosnia & Herzegovina,Bosnia & Herzegovina to United States,2000,312
+Europe,456,Switzerland,Switzerland to United States,2000,7
+Europe,457,Channel Islands,Channel Islands to United States,2000,0
+Europe,458,Czech Republic,Czech Republic to United States,2000,2524
+Europe,459,Germany,Germany to United States,2000,143
+Europe,460,Denmark,Denmark to United States,2000,0
+Europe,461,Spain,Spain to United States,2000,0
+Europe,462,Finland,Finland to United States,2000,0
+Europe,463,France,France to United States,2000,82
+Europe,464,United Kingdom,United Kingdom to United States,2000,4092
+Europe,465,Greece,Greece to United States,2000,88
+Europe,466,Croatia,Croatia to United States,2000,473
+Europe,467,Hungary,Hungary to United States,2000,0
+Europe,468,Ireland,Ireland to United States,2000,7
+Europe,469,Iceland,Iceland to United States,2000,0
+Europe,470,Italy,Italy to United States,2000,6
+Europe,471,Luxembourg,Luxembourg to United States,2000,1
+Europe,472,Macedonia,Macedonia to United States,2000,394
+Europe,473,Malta,Malta to United States,2000,0
+Europe,474,Montenegro,Montenegro to United States,2000,1992
+Europe,475,Netherlands,Netherlands to United States,2000,125
+Europe,476,Norway,Norway to United States,2000,61
+Europe,477,Poland,Poland to United States,2000,3
+Europe,478,Portugal,Portugal to United States,2000,26
+Europe,479,Romania,Romania to United States,2000,0
+Europe,480,Serbia,Serbia to United States,2000,1556
+Europe,481,Slovakia,Slovakia to United States,2000,787
+Europe,482,Slovenia,Slovenia to United States,2000,292
+Europe,483,Sweden,Sweden to United States,2000,0
+Fmr Soviet Union,484,Armenia,Armenia to United States,2000,360
+Fmr Soviet Union,485,Azerbaijan,Azerbaijan to United States,2000,0
+Fmr Soviet Union,486,Belarus,Belarus to United States,2000,2355
+Fmr Soviet Union,487,Estonia,Estonia to United States,2000,0
+Fmr Soviet Union,488,Georgia,Georgia to United States,2000,4334
+Fmr Soviet Union,489,Kazakhstan,Kazakhstan to United States,2000,6149
+Fmr Soviet Union,490,Kyrgyzstan,Kyrgyzstan to United States,2000,1060
+Fmr Soviet Union,491,Lithuania,Lithuania to United States,2000,1608
+Fmr Soviet Union,492,Latvia,Latvia to United States,2000,85
+Fmr Soviet Union,493,Moldova,Moldova to United States,2000,10888
+Fmr Soviet Union,494,Russia,Russia to United States,2000,159
+Fmr Soviet Union,495,Tajikistan,Tajikistan to United States,2000,1389
+Fmr Soviet Union,496,Turkmenistan,Turkmenistan to United States,2000,597
+Fmr Soviet Union,497,Ukraine,Ukraine to United States,2000,2560
+Fmr Soviet Union,498,Uzbekistan,Uzbekistan to United States,2000,20783
+West Asia,499,United Arab Emirates,United Arab Emirates to United States,2000,7756
+West Asia,500,Bahrain,Bahrain to United States,2000,1284
+West Asia,501,Cyprus,Cyprus to United States,2000,0
+West Asia,502,Iraq,Iraq to United States,2000,11477
+West Asia,503,Israel,Israel to United States,2000,220
+West Asia,504,Jordan,Jordan to United States,2000,29891
+West Asia,505,Kuwait,Kuwait to United States,2000,3890
+West Asia,506,Lebanon,Lebanon to United States,2000,728
+West Asia,507,Oman,Oman to United States,2000,4758
+West Asia,508,Palestine,Palestine to United States,2000,5747
+West Asia,509,Qatar,Qatar to United States,2000,793
+West Asia,510,Saudi Arabia,Saudi Arabia to United States,2000,22598
+West Asia,511,Syria,Syria to United States,2000,0
+West Asia,512,Turkey,Turkey to United States,2000,280
+West Asia,513,Yemen,Yemen to United States,2000,17732
+South Asia,514,Afghanistan,Afghanistan to United States,2000,0
+South Asia,515,Bangladesh,Bangladesh to United States,2000,84997
+South Asia,516,Bhutan,Bhutan to United States,2000,0
+South Asia,517,India,India to United States,2000,638048
+South Asia,518,Iran,Iran to United States,2000,4671
+South Asia,519,Sri Lanka,Sri Lanka to United States,2000,10454
+South Asia,520,Maldives,Maldives to United States,2000,1328
+South Asia,521,Nepal,Nepal to United States,2000,39399
+South Asia,522,Pakistan,Pakistan to United States,2000,83620
+East Asia,523,China,China to United States,2000,796005
+East Asia,524,Hong Kong,Hong Kong to United States,2000,58203
+East Asia,525,Japan,Japan to United States,2000,63936
+East Asia,526,South Korea,South Korea to United States,2000,257579
+East Asia,527,Macao,Macao to United States,2000,1868
+East Asia,528,Mongolia,Mongolia to United States,2000,29
+East Asia,529,North Korea,North Korea to United States,2000,0
+South-East Asia,530,Brunei,Brunei to United States,2000,6698
+South-East Asia,531,Indonesia,Indonesia to United States,2000,65445
+South-East Asia,532,Cambodia,Cambodia to United States,2000,0
+South-East Asia,533,Laos,Laos to United States,2000,0
+South-East Asia,534,Myanmar,Myanmar to United States,2000,40901
+South-East Asia,535,Malaysia,Malaysia to United States,2000,50379
+South-East Asia,536,Philippines,Philippines to United States,2000,429262
+South-East Asia,537,Singapore,Singapore to United States,2000,11601
+South-East Asia,538,Thailand,Thailand to United States,2000,20845
+South-East Asia,539,Timor-Leste,Timor-Leste to United States,2000,146
+South-East Asia,540,Vietnam,Vietnam to United States,2000,196708
+Oceania,541,Australia,Australia to United States,2000,6388
+Oceania,542,Fiji,Fiji to United States,2000,13658
+Oceania,543,Micronesia,Micronesia to United States,2000,7772
+Oceania,544,Guam,Guam to United States,2000,16
+Oceania,545,New Caledonia,New Caledonia to United States,2000,259
+Oceania,546,New Zealand,New Zealand to United States,2000,2146
+Oceania,547,Papua New Guinea,Papua New Guinea to United States,2000,517
+Oceania,548,French Polynesia,French Polynesia to United States,2000,1
+Oceania,549,Solomon Islands,Solomon Islands to United States,2000,18
+Oceania,550,Tonga,Tonga to United States,2000,1937
+Oceania,551,Vanuatu,Vanuatu to United States,2000,0
+Oceania,552,Samoa,Samoa to United States,2000,10
+Latin America,553,Aruba,Aruba to United States,2000,0
+Latin America,554,Argentina,Argentina to United States,2000,25251
+Latin America,555,Bahamas,Bahamas to United States,2000,3275
+Latin America,556,Belize,Belize to United States,2000,6143
+Latin America,557,Bolivia,Bolivia to United States,2000,8869
+Latin America,558,Brazil,Brazil to United States,2000,85192
+Latin America,559,Barbados,Barbados to United States,2000,0
+Latin America,560,Chile,Chile to United States,2000,10604
+Latin America,561,Colombia,Colombia to United States,2000,0
+Latin America,562,Costa Rica,Costa Rica to United States,2000,7974
+Latin America,563,Cuba,Cuba to United States,2000,77082
+Latin America,564,Dominican Republic,Dominican Republic to United States,2000,89866
+Latin America,565,Ecuador,Ecuador to United States,2000,0
+Latin America,566,Guadeloupe,Guadeloupe to United States,2000,567
+Latin America,567,Grenada,Grenada to United States,2000,2170
+Latin America,568,Guatemala,Guatemala to United States,2000,281174
+Latin America,569,French Guiana,French Guiana to United States,2000,13
+Latin America,570,Guyana,Guyana to United States,2000,3073
+Latin America,571,Honduras,Honduras to United States,2000,129335
+Latin America,572,Haiti,Haiti to United States,2000,92782
+Latin America,573,Jamaica,Jamaica to United States,2000,60529
+Latin America,574,Saint Lucia,Saint Lucia to United States,2000,305
+Latin America,575,Mexico,Mexico to United States,2000,2677763
+Latin America,576,Martinique,Martinique to United States,2000,180
+Latin America,577,Nicaragua,Nicaragua to United States,2000,89242
+Latin America,578,Panama,Panama to United States,2000,5650
+Latin America,579,Peru,Peru to United States,2000,180295
+Latin America,580,Puerto Rico,Puerto Rico to United States,2000,112625
+Latin America,581,Paraguay,Paraguay to United States,2000,102
+Latin America,582,El Salvador,El Salvador to United States,2000,329875
+Latin America,583,Suriname,Suriname to United States,2000,0
+Latin America,584,Trinidad & Tobago,Trinidad & Tobago to United States,2000,79
+Latin America,585,Uruguay,Uruguay to United States,2000,12592
+Latin America,586,Saint Vincent & Grenadines,Saint Vincent & Grenadines to United States,2000,2313
+Latin America,587,Venezuela,Venezuela to United States,2000,12133
+Latin America,588,Virgin Islands,Virgin Islands to United States,2000,330
+North America,589,Canada,Canada to United States,2005,28
+North America,590,United States,United States to United States,2005,0
+Africa,591,Angola,Angola to United States,2005,0
+Africa,592,Burundi,Burundi to United States,2005,0
+Africa,593,Benin,Benin to United States,2005,23
+Africa,594,Burkina Faso,Burkina Faso to United States,2005,1368
+Africa,595,Botswana,Botswana to United States,2005,137
+Africa,596,Central African Republic,Central African Republic to United States,2005,6
+Africa,597,Ivory Coast,Ivory Coast to United States,2005,18514
+Africa,598,Cameroon,Cameroon to United States,2005,19816
+Africa,599,DR Congo,DR Congo to United States,2005,225
+Africa,600,Congo,Congo to United States,2005,0
+Africa,601,Comoros,Comoros to United States,2005,0
+Africa,602,Cape Verde,Cape Verde to United States,2005,1427
+Africa,603,Djibouti,Djibouti to United States,2005,5
+Africa,604,Algeria,Algeria to United States,2005,0
+Africa,605,Egypt,Egypt to United States,2005,26385
+Africa,606,Eritrea,Eritrea to United States,2005,13
+Africa,607,Western Sahara,Western Sahara to United States,2005,0
+Africa,608,Ethiopia,Ethiopia to United States,2005,57079
+Africa,609,Gabon,Gabon to United States,2005,159
+Africa,610,Ghana,Ghana to United States,2005,41874
+Africa,611,Guinea,Guinea to United States,2005,13927
+Africa,612,Gambia,Gambia to United States,2005,1502
+Africa,613,Guinea-Bissau,Guinea-Bissau to United States,2005,15
+Africa,614,Equatorial Guinea,Equatorial Guinea to United States,2005,0
+Africa,615,Kenya,Kenya to United States,2005,38282
+Africa,616,Liberia,Liberia to United States,2005,1377
+Africa,617,Libya,Libya to United States,2005,229
+Africa,618,Lesotho,Lesotho to United States,2005,20
+Africa,619,Morocco,Morocco to United States,2005,13310
+Africa,620,Madagascar,Madagascar to United States,2005,0
+Africa,621,Mali,Mali to United States,2005,407
+Africa,622,Mozambique,Mozambique to United States,2005,955
+Africa,623,Mauritania,Mauritania to United States,2005,17
+Africa,624,Mauritius,Mauritius to United States,2005,0
+Africa,625,Malawi,Malawi to United States,2005,233
+Africa,626,Mayotte,Mayotte to United States,2005,0
+Africa,627,Namibia,Namibia to United States,2005,0
+Africa,628,Niger,Niger to United States,2005,148
+Africa,629,Nigeria,Nigeria to United States,2005,103012
+Africa,630,Reunion,Reunion to United States,2005,9
+Africa,631,Rwanda,Rwanda to United States,2005,0
+Africa,632,Sudan,Sudan to United States,2005,40912
+Africa,633,Senegal,Senegal to United States,2005,2519
+Africa,634,Sierra Leone,Sierra Leone to United States,2005,18
+Africa,635,Somalia,Somalia to United States,2005,28767
+Africa,636,South Sudan,South Sudan to United States,2005,0
+Africa,637,Sao Tome & Principe,Sao Tome & Principe to United States,2005,7
+Africa,638,Swaziland,Swaziland to United States,2005,0
+Africa,639,Chad,Chad to United States,2005,1895
+Africa,640,Togo,Togo to United States,2005,77
+Africa,641,Tunisia,Tunisia to United States,2005,5
+Africa,642,Tanzania,Tanzania to United States,2005,0
+Africa,643,Uganda,Uganda to United States,2005,0
+Africa,644,South Africa,South Africa to United States,2005,11519
+Africa,645,Zambia,Zambia to United States,2005,1
+Africa,646,Zimbabwe,Zimbabwe to United States,2005,20637
+Europe,647,Albania,Albania to United States,2005,0
+Europe,648,Austria,Austria to United States,2005,0
+Europe,649,Belgium,Belgium to United States,2005,0
+Europe,650,Bulgaria,Bulgaria to United States,2005,0
+Europe,651,Bosnia & Herzegovina,Bosnia & Herzegovina to United States,2005,1
+Europe,652,Switzerland,Switzerland to United States,2005,16
+Europe,653,Channel Islands,Channel Islands to United States,2005,0
+Europe,654,Czech Republic,Czech Republic to United States,2005,0
+Europe,655,Germany,Germany to United States,2005,68
+Europe,656,Denmark,Denmark to United States,2005,0
+Europe,657,Spain,Spain to United States,2005,0
+Europe,658,Finland,Finland to United States,2005,0
+Europe,659,France,France to United States,2005,547
+Europe,660,United Kingdom,United Kingdom to United States,2005,2196
+Europe,661,Greece,Greece to United States,2005,124
+Europe,662,Croatia,Croatia to United States,2005,0
+Europe,663,Hungary,Hungary to United States,2005,0
+Europe,664,Ireland,Ireland to United States,2005,17
+Europe,665,Iceland,Iceland to United States,2005,1
+Europe,666,Italy,Italy to United States,2005,4
+Europe,667,Luxembourg,Luxembourg to United States,2005,0
+Europe,668,Macedonia,Macedonia to United States,2005,0
+Europe,669,Malta,Malta to United States,2005,0
+Europe,670,Montenegro,Montenegro to United States,2005,0
+Europe,671,Netherlands,Netherlands to United States,2005,141
+Europe,672,Norway,Norway to United States,2005,2
+Europe,673,Poland,Poland to United States,2005,1
+Europe,674,Portugal,Portugal to United States,2005,116
+Europe,675,Romania,Romania to United States,2005,0
+Europe,676,Serbia,Serbia to United States,2005,0
+Europe,677,Slovakia,Slovakia to United States,2005,2
+Europe,678,Slovenia,Slovenia to United States,2005,5
+Europe,679,Sweden,Sweden to United States,2005,0
+Fmr Soviet Union,680,Armenia,Armenia to United States,2005,4
+Fmr Soviet Union,681,Azerbaijan,Azerbaijan to United States,2005,0
+Fmr Soviet Union,682,Belarus,Belarus to United States,2005,0
+Fmr Soviet Union,683,Estonia,Estonia to United States,2005,0
+Fmr Soviet Union,684,Georgia,Georgia to United States,2005,778
+Fmr Soviet Union,685,Kazakhstan,Kazakhstan to United States,2005,3347
+Fmr Soviet Union,686,Kyrgyzstan,Kyrgyzstan to United States,2005,32
+Fmr Soviet Union,687,Lithuania,Lithuania to United States,2005,0
+Fmr Soviet Union,688,Latvia,Latvia to United States,2005,0
+Fmr Soviet Union,689,Moldova,Moldova to United States,2005,2788
+Fmr Soviet Union,690,Russia,Russia to United States,2005,181
+Fmr Soviet Union,691,Tajikistan,Tajikistan to United States,2005,521
+Fmr Soviet Union,692,Turkmenistan,Turkmenistan to United States,2005,1
+Fmr Soviet Union,693,Ukraine,Ukraine to United States,2005,0
+Fmr Soviet Union,694,Uzbekistan,Uzbekistan to United States,2005,9373
+West Asia,695,United Arab Emirates,United Arab Emirates to United States,2005,11196
+West Asia,696,Bahrain,Bahrain to United States,2005,0
+West Asia,697,Cyprus,Cyprus to United States,2005,0
+West Asia,698,Iraq,Iraq to United States,2005,89
+West Asia,699,Israel,Israel to United States,2005,167
+West Asia,700,Jordan,Jordan to United States,2005,18567
+West Asia,701,Kuwait,Kuwait to United States,2005,2156
+West Asia,702,Lebanon,Lebanon to United States,2005,1603
+West Asia,703,Oman,Oman to United States,2005,730
+West Asia,704,Palestine,Palestine to United States,2005,1126
+West Asia,705,Qatar,Qatar to United States,2005,0
+West Asia,706,Saudi Arabia,Saudi Arabia to United States,2005,36710
+West Asia,707,Syria,Syria to United States,2005,22566
+West Asia,708,Turkey,Turkey to United States,2005,0
+West Asia,709,Yemen,Yemen to United States,2005,20903
+South Asia,710,Afghanistan,Afghanistan to United States,2005,13781
+South Asia,711,Bangladesh,Bangladesh to United States,2005,128303
+South Asia,712,Bhutan,Bhutan to United States,2005,0
+South Asia,713,India,India to United States,2005,701242
+South Asia,714,Iran,Iran to United States,2005,68345
+South Asia,715,Sri Lanka,Sri Lanka to United States,2005,15766
+South Asia,716,Maldives,Maldives to United States,2005,1064
+South Asia,717,Nepal,Nepal to United States,2005,48919
+South Asia,718,Pakistan,Pakistan to United States,2005,147652
+East Asia,719,China,China to United States,2005,615536
+East Asia,720,Hong Kong,Hong Kong to United States,2005,21007
+East Asia,721,Japan,Japan to United States,2005,3128
+East Asia,722,South Korea,South Korea to United States,2005,176430
+East Asia,723,Macao,Macao to United States,2005,558
+East Asia,724,Mongolia,Mongolia to United States,2005,10
+East Asia,725,North Korea,North Korea to United States,2005,0
+South-East Asia,726,Brunei,Brunei to United States,2005,5321
+South-East Asia,727,Indonesia,Indonesia to United States,2005,65117
+South-East Asia,728,Cambodia,Cambodia to United States,2005,22152
+South-East Asia,729,Laos,Laos to United States,2005,0
+South-East Asia,730,Myanmar,Myanmar to United States,2005,28118
+South-East Asia,731,Malaysia,Malaysia to United States,2005,54160
+South-East Asia,732,Philippines,Philippines to United States,2005,373024
+South-East Asia,733,Singapore,Singapore to United States,2005,3738
+South-East Asia,734,Thailand,Thailand to United States,2005,68083
+South-East Asia,735,Timor-Leste,Timor-Leste to United States,2005,1661
+South-East Asia,736,Vietnam,Vietnam to United States,2005,172530
+Oceania,737,Australia,Australia to United States,2005,308
+Oceania,738,Fiji,Fiji to United States,2005,4609
+Oceania,739,Micronesia,Micronesia to United States,2005,7405
+Oceania,740,Guam,Guam to United States,2005,120
+Oceania,741,New Caledonia,New Caledonia to United States,2005,374
+Oceania,742,New Zealand,New Zealand to United States,2005,2665
+Oceania,743,Papua New Guinea,Papua New Guinea to United States,2005,325
+Oceania,744,French Polynesia,French Polynesia to United States,2005,5
+Oceania,745,Solomon Islands,Solomon Islands to United States,2005,20
+Oceania,746,Tonga,Tonga to United States,2005,1525
+Oceania,747,Vanuatu,Vanuatu to United States,2005,1
+Oceania,748,Samoa,Samoa to United States,2005,7
+Latin America,749,Aruba,Aruba to United States,2005,0
+Latin America,750,Argentina,Argentina to United States,2005,28117
+Latin America,751,Bahamas,Bahamas to United States,2005,4563
+Latin America,752,Belize,Belize to United States,2005,3878
+Latin America,753,Bolivia,Bolivia to United States,2005,11768
+Latin America,754,Brazil,Brazil to United States,2005,75163
+Latin America,755,Barbados,Barbados to United States,2005,0
+Latin America,756,Chile,Chile to United States,2005,13056
+Latin America,757,Colombia,Colombia to United States,2005,28
+Latin America,758,Costa Rica,Costa Rica to United States,2005,7585
+Latin America,759,Cuba,Cuba to United States,2005,118560
+Latin America,760,Dominican Republic,Dominican Republic to United States,2005,95233
+Latin America,761,Ecuador,Ecuador to United States,2005,101
+Latin America,762,Guadeloupe,Guadeloupe to United States,2005,900
+Latin America,763,Grenada,Grenada to United States,2005,2110
+Latin America,764,Guatemala,Guatemala to United States,2005,196146
+Latin America,765,French Guiana,French Guiana to United States,2005,343
+Latin America,766,Guyana,Guyana to United States,2005,5744
+Latin America,767,Honduras,Honduras to United States,2005,83578
+Latin America,768,Haiti,Haiti to United States,2005,133517
+Latin America,769,Jamaica,Jamaica to United States,2005,76052
+Latin America,770,Saint Lucia,Saint Lucia to United States,2005,494
+Latin America,771,Mexico,Mexico to United States,2005,1957397
+Latin America,772,Martinique,Martinique to United States,2005,164
+Latin America,773,Nicaragua,Nicaragua to United States,2005,82311
+Latin America,774,Panama,Panama to United States,2005,2863
+Latin America,775,Peru,Peru to United States,2005,194181
+Latin America,776,Puerto Rico,Puerto Rico to United States,2005,104291
+Latin America,777,Paraguay,Paraguay to United States,2005,0
+Latin America,778,El Salvador,El Salvador to United States,2005,268935
+Latin America,779,Suriname,Suriname to United States,2005,164
+Latin America,780,Trinidad & Tobago,Trinidad & Tobago to United States,2005,168
+Latin America,781,Uruguay,Uruguay to United States,2005,7926
+Latin America,782,Saint Vincent & Grenadines,Saint Vincent & Grenadines to United States,2005,2205
+Latin America,783,Venezuela,Venezuela to United States,2005,11808
+Latin America,784,Virgin Islands,Virgin Islands to United States,2005,330

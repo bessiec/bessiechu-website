@@ -1,0 +1,83 @@
+{
+	"name": "Soccer Confederations of the Americas",
+	"children": [
+	{
+	 "name": "CONCACAF",
+	 "children": [
+	 	{
+	 	 "name": "North American Zone",
+	 	  "children": [
+	 	  {"name": "Canada"},
+	 	  {"name": "USA"},
+	 	  {"name": "Mexico"}
+	 	  ]
+	 	},
+	 	{ 
+	 	 "name": "Cental American Zone",
+	 	 "children": [
+	 	 {"name": "Belize"},
+		 {"name": "Costa Rica"},
+		 {"name": "El Salvador"},
+		 {"name": "Guatemala"},
+		 {"name": "Honduras"},
+		 {"name": "Nicaragua"},
+		 {"name": "Panama"}
+	 	 ]
+	 	},
+	 	{
+	 	 "name": "Carribean Zone",
+	 	 "children": [
+	 	 {"name": "Anguilla"},
+		 {"name": "Antigua and Barbuda"},
+		 {"name": "Aruba"},
+		 {"name": "Bahamas"},
+		 {"name": "Barbados"},
+		 {"name": "Bermuda"},
+		 {"name": "Bonaire"},
+		 {"name": "British Virgin Islands"},
+		 {"name": "Cayman Islands"},
+		 {"name": "Cuba"},
+		 {"name": "Curacao"},
+		 {"name": "Dominica"},
+		 {"name": "Dominican Republic"},
+		 {"name": "French Guiana"},
+		 {"name": "Grenada"},
+		 {"name": "Guadeloupe"},
+		 {"name": "Guyana"},
+		 {"name": "Haiti"},
+		 {"name": "Jamaica"},
+		 {"name": "Martinique"},
+		 {"name": "Montserrat"},
+		 {"name": "Puerto Rico"},
+		 {"name": "Saint Kitts and Nevis"},
+		 {"name": "Saint Lucia"},
+		 {"name": "Saint Martin"},
+		 {"name": "Saint Vincent and the Grenadines"},
+		 {"name": "Sint Maarten"},
+		 {"name": "Suriname"},
+		 {"name": "Trinidad and Tobago"},
+		 {"name": "Turks and Caicos Islands"},
+		 {"name": "U.S. Virgin Islands"}
+	 	 ]
+	 	}
+	 ]},
+	{
+	"name": "CONMEBOL",
+	"children": [
+		{"name": "Brazil"},
+		{"name": "Paraguay"},
+		{"name": "Bolivia"},
+		{"name": "Colombia"},
+		{"name": "Argentina"},
+		{"name": "Chile"},
+		{"name": "Peru"},
+		{"name": "Uruguay"},
+		{"name": "Venezuela"},
+		{"name": "Ecuador"}
+	]
+	}
+
+
+
+	]
+}
