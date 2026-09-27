@@ -1,0 +1,451 @@
+<html>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.16/d3.js"> </script>
+	<link href='https://fonts.googleapis.com/css?family=Mako' rel='stylesheet' type='text/css'>	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.0/d3-tip.js"></script>
+
+	<meta charset="utf-8">
+		<style>
+			.axis line, .axis path {
+				shape-rendering: crispEdges;
+				stroke: black;
+				fill: none;
+			}
+
+		    body {
+		      	font-family: "Mako";
+		      	font-weight: 500;
+          		font-size : 14px;
+         		margin: 2% 2% 2% 2%;
+
+		    }
+
+        .circle circle:hover {
+          fill: #FF6600;
+        }
+
+		  .d3-tip {
+		  line-height: 1;
+		  font-weight: bold;
+		  padding: 12px;
+		  background: rgba(0, 0, 0, 0.8);
+		  color: #fff;
+		  border-radius: 2px;
+	      }
+
+	      /* Creates a small triangle extender for the tooltip */
+	      .d3-tip:after {
+	        box-sizing: border-box;
+	        display: inline;
+	        font-size: 10px;
+	        width: 100%;
+	        line-height: 1;
+	        color: rgba(0, 0, 0, 0.8);
+	        content: "\25BC";
+	        position: absolute;
+	        text-align: center;
+	      }
+
+	      /* Style northward tooltips differently */
+	      .d3-tip.n:after {
+	        margin: -1px 0 0 0;
+	        top: 100%;
+	        left: 0;
+	      }
+
+		</style>
+
+<body>
+
+
+	<h1>MLS 2015 Selected Team Stat Correlations Visuals</h1>
+
+
+	<h3>Shots vs Shots on Goal</h3>
+	<div id="shots"></div>
+
+	<h3>Shots vs Goals</h3>
+	<div id="attempt"></div>
+
+	<h3>Goals vs Shots on Goal</h3> 
+	<div id="goals"></div>
+
+	<h3>Penalty Kick Attempts vs Penalty Kick Goals</h3> 
+	<div id="penalty"></div>
+
+	<script>
+
+
+
+	var margin = {top:10, right:50, bottom:50, left:100},
+		width = 550 - margin.left - margin.right,
+		height = 350 - margin.top - margin.bottom;
+
+
+	var xScale = d3.scale.linear()
+			.range([0, width]);
+
+	
+	var yScale = d3.scale.linear()
+	 		.range([height, 0]);
+
+
+	var xAxis = d3.svg.axis()
+			.scale(xScale)
+			.orient("bottom")
+			.ticks(15);
+
+	var yAxis = d3.svg.axis()
+			.scale(yScale)
+			.orient("left")
+			.ticks(15);
+
+	//////////////////////////////////////////////////////////////////////
+	
+
+        /* Shots v SOGS
+        ***********************************
+        ***********************************/
+	
+
+	var svg1 = d3.select("#shots") 
+				.append("svg")
+				.attr("width", width + margin.right + margin.left)
+				.attr("height", height + margin.bottom + margin.top)
+			  .append("g")
+			    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+	var tip1 = d3.tip()
+		  .attr('class', 'd3-tip')
+		  .offset([-10, 0])
+		  .html(function(d) {
+		    return "<strong><span style='color:#0080FF'>" + d.Club + "</strong><br> Shots on Goal: " + d['Shots on Goal'] + "<br> Shots: " + d.Shots + "</span>";
+		  })
+
+	d3.csv("mls2015teamstats.csv", function(error, data) { 
+		if (error) throw error;
+
+		data.forEach(function(d) { 
+			d.Shots = +d.Shots;
+			d['Shots On Goal'] = + d['Shots on Goal']
+		});
+
+		xScale.domain(d3.extent(data, function(d) { return d.Shots }));
+		yScale.domain(d3.extent(data, function(d) { return d['Shots on Goal'] }));
+
+
+	var circles = svg1.selectAll("circle")
+			.data(data)
+			.enter()
+			.append("circle")
+			.attr("cx", function(d) { return xScale(d.Shots); })
+			.attr("cy", function(d) { return yScale(d['Shots on Goal']); })
+			.attr("r", 5)
+			.attr("fill", "#0080FF")
+			.on('mouseover', tip1.show)
+			.on('mouseout', tip1.hide)
+
+	  svg1.append("g")
+	      .attr("class", "x axis")
+	      .attr("transform", "translate(0," + height + ")")
+	      .call(xAxis)
+	   	.append("text")
+	   	  .attr("x", width/2)
+	   	  .attr("y", margin.bottom - 20)
+	   	  .attr("dy", ".71em")
+	   	  .style("text-anchor", "middle")
+	   	  .text("Shots")
+
+	  svg1.append("g")
+	      .attr("class", "y axis")
+	      .call(yAxis)
+		.append("text")
+	      .attr("transform", "rotate(-90)")
+	      .attr("x", 0 - margin.left - 70)
+	      .attr("y", 0 - (height/2) + 80)
+	      .attr("dy", "1em")
+	      .style("text-anchor", "middle")
+	      .text("Shots on Goal")
+
+	  svg1.call(tip1);
+
+
+
+	})
+
+
+        /* Goals v Shots 
+        ***********************************
+        ***********************************/
+	
+
+
+	var svg2 = d3.select("#attempt") 
+				.append("svg")
+				.attr("width", width + margin.right + margin.left)
+				.attr("height", height + margin.bottom + margin.top)
+			  .append("g")
+			    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+	var tip2 = d3.tip()
+		  .attr('class', 'd3-tip')
+		  .offset([-10, 0])
+		  .html(function(d) {
+		    return "<strong><span style='color:#FFA566'>" + d.Club + "</strong><br> Shots: " + d.Shots + "<br> Goals: " + d.Goals + "</span>";
+		  })
+
+	d3.csv("mls2015teamstats.csv", function(error, data) { 
+		if (error) throw error;
+
+		data.forEach(function(d) { 
+			d.Shots = +d.Shots;
+			d.Goals = +d.Goals;
+		});
+
+		xScale.domain(d3.extent(data, function(d) { return d.Shots }));
+		yScale.domain(d3.extent(data, function(d) { return d.Goals }));
+
+
+	var circles = svg2.selectAll("circle")
+			.data(data)
+			.enter()
+			.append("circle")
+			.attr("cx", function(d) { return xScale(d.Shots); })
+			.attr("cy", function(d) { return yScale(d.Goals); })
+			.attr("r", 5)
+			.attr("fill", "#FFA566")
+			.on('mouseover', tip2.show)
+			.on('mouseout', tip2.hide)
+
+	  svg2.append("g")
+	      .attr("class", "x axis")
+	      .attr("transform", "translate(0," + height + ")")
+	      .call(xAxis)
+	   	.append("text")
+	   	  .attr("x", width/2)
+	   	  .attr("y", margin.bottom - 20)
+	   	  .attr("dy", ".71em")
+	   	  .style("text-anchor", "middle")
+	   	  .text("Shots")
+
+	  svg2.append("g")
+	      .attr("class", "y axis")
+	      .call(yAxis)
+		.append("text")
+	      .attr("transform", "rotate(-90)")
+	      .attr("x", 0 - margin.left - 70)
+	      .attr("y", 0 - (height/2) + 80)
+	      .attr("dy", "1em")
+	      .style("text-anchor", "middle")
+	      .text("Goals")
+
+	  svg2.call(tip2);
+
+
+
+	})
+
+     /* Goals v Attempts
+        ***********************************
+        ***********************************/
+
+	var svg3 = d3.select("#attempts") 
+				.append("svg")
+				.attr("width", width + margin.right + margin.left)
+				.attr("height", height + margin.bottom + margin.top)
+			  .append("g")
+			    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+	var tip3 = d3.tip()
+		  .attr('class', 'd3-tip')
+		  .offset([-10, 0])
+		  .html(function(d) {
+		    return "<strong><span style='color:#FFA566'>" + d.Club + "</strong><br> Shots: " + d.Shots + "<br> Goals: " + d.Goals + "</span>";
+		  })
+
+	d3.csv("mls2015teamstats.csv", function(error, data) { 
+		if (error) throw error;
+
+		data.forEach(function(d) { 
+			d.Shots = +d.Shots;
+			d.Goals = +d.Goals;
+		});
+
+		xScale.domain(d3.extent(data, function(d) { return d.Shots }));
+		yScale.domain(d3.extent(data, function(d) { return d.Goals }));
+
+
+	var circles = svg2.selectAll("circle")
+			.data(data)
+			.enter()
+			.append("circle")
+			.attr("cx", function(d) { return xScale(d.Shots); })
+			.attr("cy", function(d) { return yScale(d.Goals); })
+			.attr("r", 5)
+			.attr("fill", "#FFA566")
+			.on('mouseover', tip2.show)
+			.on('mouseout', tip2.hide)
+
+	  svg2.append("g")
+	      .attr("class", "x axis")
+	      .attr("transform", "translate(0," + height + ")")
+	      .call(xAxis)
+	   	.append("text")
+	   	  .attr("x", width/2)
+	   	  .attr("y", margin.bottom - 20)
+	   	  .attr("dy", ".71em")
+	   	  .style("text-anchor", "middle")
+	   	  .text("Shots")
+
+	  svg2.append("g")
+	      .attr("class", "y axis")
+	      .call(yAxis)
+		.append("text")
+	      .attr("transform", "rotate(-90)")
+	      .attr("x", 0 - margin.left - 70)
+	      .attr("y", 0 - (height/2) + 80)
+	      .attr("dy", "1em")
+	      .style("text-anchor", "middle")
+	      .text("Goals")
+
+	  svg2.call(tip2);
+
+	})
+
+     /* Goals v Shots on Goal 
+        ***********************************
+        ***********************************/
+
+	var svg3 = d3.select("#goals") 
+				.append("svg")
+				.attr("width", width + margin.right + margin.left)
+				.attr("height", height + margin.bottom + margin.top)
+			  .append("g")
+			    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+	var tip3 = d3.tip()
+		  .attr('class', 'd3-tip')
+		  .offset([-10, 0])
+		  .html(function(d) {
+		    return "<strong><span style='color:#6CC4B9'>" + d.Club + "</strong><br> Goals: " + d.Goals + "<br> Shots on Goal: " + d['Shots on Goal'] + "</span>";
+		  })
+
+	d3.csv("mls2015teamstats.csv", function(error, data) { 
+		if (error) throw error;
+
+		data.forEach(function(d) { 
+			d.Goals = +d.Goals;
+			d['Shots on Goal'] = +d['Shots on Goal'];
+		});
+
+		xScale.domain(d3.extent(data, function(d) { return d.Goals }));
+		yScale.domain(d3.extent(data, function(d) { return d['Shots on Goal']}));
+
+
+	var circles = svg3.selectAll("circle")
+			.data(data)
+			.enter()
+			.append("circle")
+			.attr("cx", function(d) { return xScale(d.Goals); })
+			.attr("cy", function(d) { return yScale(d['Shots on Goal']); })
+			.attr("r", 5)
+			.attr("fill", "#6CC4B9")
+			.on('mouseover', tip3.show)
+			.on('mouseout', tip3.hide)
+
+	  svg3.append("g")
+	      .attr("class", "x axis")
+	      .attr("transform", "translate(0," + height + ")")
+	      .call(xAxis)
+	   	.append("text")
+	   	  .attr("x", width/2)
+	   	  .attr("y", margin.bottom - 20)
+	   	  .attr("dy", ".71em")
+	   	  .style("text-anchor", "middle")
+	   	  .text("Goals")
+
+	  svg3.append("g")
+	      .attr("class", "y axis")
+	      .call(yAxis)
+		.append("text")
+	      .attr("transform", "rotate(-90)")
+	      .attr("x", 0 - margin.left - 70)
+	      .attr("y", 0 - (height/2) + 80)
+	      .attr("dy", "1em")
+	      .style("text-anchor", "middle")
+	      .text("Shots on Goal")
+
+	  svg3.call(tip3);
+
+	})
+
+     /* PKG v PKA 
+        ***********************************
+        ***********************************/
+	var svg4 = d3.select("#penalty") 
+				.append("svg")
+				.attr("width", width + margin.right + margin.left)
+				.attr("height", height + margin.bottom + margin.top)
+			  .append("g")
+			    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+	var tip4 = d3.tip()
+		  .attr('class', 'd3-tip')
+		  .offset([-10, 0])
+		  .html(function(d) {
+		    return "<strong><span style='color:#69F0E9'>" + d.Club + "</strong><br> Penalty Kick Attempts: " + d['Penality Kick Attempts'] + "<br> Penalty Kick Goals: " + d['Penality Kick Goals'] + "</span>";
+		  })
+
+	d3.csv("mls2015teamstats.csv", function(error, data) { 
+		if (error) throw error;
+
+		data.forEach(function(d) { 
+			d['Penality Kick Attempts'] = +d['Penality Kick Attempts'];
+			d['Penality Kick Goals'] = +d['Penality Kick Goals'];
+		});
+
+		xScale.domain(d3.extent(data, function(d) { return d['Penality Kick Attempts'] }));
+		yScale.domain(d3.extent(data, function(d) { return d['Penality Kick Goals']}));
+
+
+	var circles = svg4.selectAll("circle")
+			.data(data)
+			.enter()
+			.append("circle")
+			.attr("cx", function(d) { return xScale(d['Penality Kick Attempts']); })
+			.attr("cy", function(d) { return yScale(d['Penality Kick Goals']); })
+			.attr("r", 5)
+			.attr("fill", "#69F0E9")
+			.on('mouseover', tip4.show)
+			.on('mouseout', tip4.hide)
+
+	  svg4.append("g")
+	      .attr("class", "x axis")
+	      .attr("transform", "translate(0," + height + ")")
+	      .call(xAxis)
+	   	.append("text")
+	   	  .attr("x", width/2)
+	   	  .attr("y", margin.bottom - 20)
+	   	  .attr("dy", ".71em")
+	   	  .style("text-anchor", "middle")
+	   	  .text("Penalty Kick Attempts")
+
+	  svg4.append("g")
+	      .attr("class", "y axis")
+	      .call(yAxis)
+		.append("text")
+	      .attr("transform", "rotate(-90)")
+	      .attr("x", 0 - margin.left - 70)
+	      .attr("y", 0 - (height/2) + 80)
+	      .attr("dy", "1em")
+	      .style("text-anchor", "middle")
+	      .text("Penalty Kick Goals")
+
+	  svg4.call(tip4);
+
+	})
+
+
+	</script>
+
+<body>
+</html>

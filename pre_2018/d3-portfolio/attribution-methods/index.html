@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Attribution Methods</title>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.6.7/d3-tip.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans" rel="stylesheet">
+        <style>
+
+            body {
+              margin: 5% 5% 5% 5%;
+              font-family: 'Lato';
+            }
+
+            .axis {
+              font: 12px 'Open Sans';
+              fill: white;
+            }
+
+
+            .axis path,
+            .axis line {
+              fill: none;
+              stroke: #FFD180;
+              shape-rendering: crispEdges;
+            }
+
+            .x.axis path {
+              display: none;
+            }
+
+
+            .bar {
+              fill: #4681EA;
+            }
+
+            .bar:hover {
+              fill: #FFD180;
+            }
+
+            div {
+              margin-left: 50px
+              border-size: 1px;
+              border-style: solid;
+              border-color: white;
+              background-color: black;
+              color: white;
+            }
+
+            h1 {
+              margin-left: 10px
+            }
+
+            h3 {
+              margin-left: 50px
+            }
+
+            p {
+              margin-right: 150px;
+              margin-left: 50px
+            };
+
+          .d3-tip {
+              line-height: 1;
+              font-weight: bold;
+              padding: 12px;
+              background: rgba(0, 0, 0, 0.8);
+              color: #fff;
+              border-radius: 2px;
+          }
+
+          /* Creates a small triangle extender for the tooltip */
+          .d3-tip:after {
+              box-sizing: border-box;
+              display: inline;
+              font-size: 10px;
+              width: 100%;
+              line-height: 1;
+              color: rgba(0, 0, 0, 0.8);
+              content: "\25BC";
+              position: absolute;
+              text-align: center;
+          }
+
+          /* Style northward tooltips differently */
+          .d3-tip.n:after {
+            margin: -1px 0 0 0;
+            top: 100%;
+            left: 0;
+          }
+
+        </style>
+    </head>
+    <body>
+
+
+      <h1>Understanding Marketing Attribution Methods</h1>
+
+
+        <div id="logistic">   
+          <h3>Attribution Using Logistic Regression</h3>   
+          <p>Logistic regression allows advanced knowledge about consumer response to drive weighting: time of day, duration between interactions, site side activity, and other factors.</p>
+        </div>  
+
+
+        <div id="lastclick">
+          <h3>Last Click Attribution</h3> 
+            <p>
+              Legacy attribution methodology developed out of Direct Response. Gives complete bias towards the last action.
+            </p>
+        </div>
+
+        <div id="firstclick">
+          <h3>First Click Attribution</h3> 
+            <p>
+              Complete bias towards first action and measures only digital impact from upper funnel.
+            </p>        
+        </div>
+
+        <div id="even">
+          <h3>Even Attribution</h3> 
+            <p>
+              Distributes revenue evenly across all actions and has a complete lack of bias, which doesn’t align with understandings of consumers.
+            </p> 
+        </div>      
+
+        <div id="linear">
+          <h3>Linear Attribution</h3> 
+            <p>
+              Weighs bias towards the last action, but allows all actions to contribute towards revenue. Method assigns higher weights to middle tactics.
+            </p>        
+        </div>
+
+        <div id="u">
+          <h3>U-Shaped Attribution</h3> 
+            <p>
+              Bias towards the first and last actions but still allows all actions to contribute. Fits with the consumer theory “we remember the beginning and end but forget the middle."
+            </p>        
+        </div>
+
+        <script type="text/javascript">
+            var tip = d3.tip()
+                .attr('class', 'd3-tip')
+                .html(function(d) { 
+                  return "<strong>We weigh <span style='color:#0080FF'>"+ d.Medium + " </span>to an Attribution of <span style='color:#FFD180'>" + Math.round(d.Attribution * 100) + "%</span></strong>" });
+        
+            var margin = {top: 20, right: 20, bottom: 30, left: 80},
+                width = 1000 - margin.left - margin.right,
+                height = 400 - margin.top - margin.bottom;
+
+            var x = d3.scale.ordinal()
+                .rangeRoundBands([0, width], .1);
+
+            var y = d3.scale.linear()
+                .range([height, 0]);
+
+            var xAxis = d3.svg.axis()
+                .scale(x)
+                .orient("bottom");
+
+            var yAxis = d3.svg.axis()
+                .scale(y)
+                .orient("left")
+                .ticks(10, "%");
+
+
+// logistic barcharts 
+
+            var logistic = d3.select("#logistic")
+                .append("svg")
+                .attr("width", width + margin.left + margin.right)
+                .attr("height", height + margin.top + margin.bottom)
+                .append("g")
+                .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+            d3.csv("logistic.csv", function(error, data) {
+              data.forEach(function(d) {
+                d.count = +d.count;
+              });
+
+
+              x.domain(data.map(function(d) { return d.Medium; }));
+              y.domain([0, d3.max(data, function(d) { return d.Attribution; })]);
+
+              logistic.append("g")
+                  .attr("class", "x axis")
+                  .attr("transform", "translate(0," + height + ")")
+                  .call(xAxis);
+
+              logistic.append("g")
+                  .attr("class", "y axis")
+                  .call(yAxis)
+                .append("text")
+                  .attr("transform", "rotate(-90)")
+                  .attr("y", 6)
+                  .attr("dy", ".71em")
+                  .style("text-anchor", "end")
+                  .text("Attribution");
+
+              logistic.call(tip) 
+
+              logistic.selectAll(".bar")
+                  .data(data)
+                .enter().append("rect")
+                  .attr("class", "bar")
+                  .attr("x", function(d) { return x(d.Medium); })
+                  .attr("width", x.rangeBand())
+                  .attr("y", function(d) { return y(d.Attribution); })
+                  .attr("height", function(d) { return height - y(d.Attribution); })
+                  .on('mouseover', tip.show)
+                  .on('mouseout', tip.hide)
+
+            });
+
+            function type(d) {
+              d.Attribution = +d.Attribution;
+              return d;
+            }
+
+
+
+//last click barcharts 
+
+
+            var lastClick = d3.select("#lastclick")
+                .append("svg")
+                .attr("width", width + margin.left + margin.right)
+                .attr("height", height + margin.top + margin.bottom)
+                .append("g")
+                .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+            d3.csv("lastclick.csv", function(error, data) {
+              data.forEach(function(d) {
+                d.count = +d.count;
+              });
+
+
+              x.domain(data.map(function(d) { return d.Medium; }));
+              y.domain([0, d3.max(data, function(d) { return d.Attribution; })]);
+
+              lastClick.append("g")
+                  .attr("class", "x axis")
+                  .attr("transform", "translate(0," + height + ")")
+                  .call(xAxis);
+
+              lastClick.append("g")
+                  .attr("class", "y axis")
+                  .call(yAxis)
+                .append("text")
+                  .attr("transform", "rotate(-90)")
+                  .attr("y", 6)
+                  .attr("dy", ".71em")
+                  .style("text-anchor", "end")
+                  .text("Attribution");
+
+              lastClick.call(tip) 
+
+              lastClick.selectAll(".bar")
+                  .data(data)
+                .enter().append("rect")
+                  .attr("class", "bar")
+                  .attr("x", function(d) { return x(d.Medium); })
+                  .attr("width", x.rangeBand())
+                  .attr("y", function(d) { return y(d.Attribution); })
+                  .attr("height", function(d) { return height - y(d.Attribution); })
+                  .on('mouseover', tip.show)
+                  .on('mouseout', tip.hide)
+
+            });
+
+            function type(d) {
+              d.Attribution = +d.Attribution;
+              return d;
+            }
+
+
+// first click chart 
+
+            var firstClick = d3.select("#firstclick")
+                .append("svg")
+                .attr("width", width + margin.left + margin.right)
+                .attr("height", height + margin.top + margin.bottom)
+                .append("g")
+                .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+            d3.csv("firstclick.csv", function(error, data) {
+              data.forEach(function(d) {
+                d.count = +d.count;
+              });
+
+
+              x.domain(data.map(function(d) { return d.Medium; }));
+              y.domain([0, d3.max(data, function(d) { return d.Attribution; })]);
+
+              firstClick.append("g")
+                  .attr("class", "x axis")
+                  .attr("transform", "translate(0," + height + ")")
+                  .call(xAxis);
+
+              firstClick.append("g")
+                  .attr("class", "y axis")
+                  .call(yAxis)
+                .append("text")
+                  .attr("transform", "rotate(-90)")
+                  .attr("y", 6)
+                  .attr("dy", ".71em")
+                  .style("text-anchor", "end")
+                  .text("Attribution");
+
+              firstClick.call(tip) 
+
+              firstClick.selectAll(".bar")
+                  .data(data)
+                .enter().append("rect")
+                  .attr("class", "bar")
+                  .attr("x", function(d) { return x(d.Medium); })
+                  .attr("width", x.rangeBand())
+                  .attr("y", function(d) { return y(d.Attribution); })
+                  .attr("height", function(d) { return height - y(d.Attribution); })
+                  .on('mouseover', tip.show)
+                  .on('mouseout', tip.hide)
+
+            });
+
+            function type(d) {
+              d.Attribution = +d.Attribution;
+              return d;
+            }
+
+// even 
+            
+            var even = d3.select("#even")
+                .append("svg")
+                .attr("width", width + margin.left + margin.right)
+                .attr("height", height + margin.top + margin.bottom)
+                .append("g")
+                .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+            d3.csv("even.csv", function(error, data) {
+              data.forEach(function(d) {
+                d.count = +d.count;
+              });
+
+
+              x.domain(data.map(function(d) { return d.Medium; }));
+              y.domain([0, d3.max(data, function(d) { return d.Attribution; })]);
+
+              even.append("g")
+                  .attr("class", "x axis")
+                  .attr("transform", "translate(0," + height + ")")
+                  .call(xAxis);
+
+              even.append("g")
+                  .attr("class", "y axis")
+                  .call(yAxis)
+                .append("text")
+                  .attr("transform", "rotate(-90)")
+                  .attr("y", 6)
+                  .attr("dy", ".71em")
+                  .style("text-anchor", "end")
+                  .text("Attribution");
+
+              even.call(tip) 
+
+              even.selectAll(".bar")
+                  .data(data)
+                .enter().append("rect")
+                  .attr("class", "bar")
+                  .attr("x", function(d) { return x(d.Medium); })
+                  .attr("width", x.rangeBand())
+                  .attr("y", function(d) { return y(d.Attribution); })
+                  .attr("height", function(d) { return height - y(d.Attribution); })
+                  .on('mouseover', tip.show)
+                  .on('mouseout', tip.hide)
+
+            });
+
+            function type(d) {
+              d.Attribution = +d.Attribution;
+              return d;
+            }
+
+
+// linear 
+            
+            var linear = d3.select("#linear")
+                .append("svg")
+                .attr("width", width + margin.left + margin.right)
+                .attr("height", height + margin.top + margin.bottom)
+                .append("g")
+                .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+            d3.csv("linear.csv", function(error, data) {
+              data.forEach(function(d) {
+                d.count = +d.count;
+              });
+
+
+              x.domain(data.map(function(d) { return d.Medium; }));
+              y.domain([0, d3.max(data, function(d) { return d.Attribution; })]);
+
+              linear.append("g")
+                  .attr("class", "x axis")
+                  .attr("transform", "translate(0," + height + ")")
+                  .call(xAxis);
+
+              linear.append("g")
+                  .attr("class", "y axis")
+                  .call(yAxis)
+                .append("text")
+                  .attr("transform", "rotate(-90)")
+                  .attr("y", 6)
+                  .attr("dy", ".71em")
+                  .style("text-anchor", "end")
+                  .text("Attribution");
+
+              linear.call(tip) 
+
+              linear.selectAll(".bar")
+                  .data(data)
+                .enter().append("rect")
+                  .attr("class", "bar")
+                  .attr("x", function(d) { return x(d.Medium); })
+                  .attr("width", x.rangeBand())
+                  .attr("y", function(d) { return y(d.Attribution); })
+                  .attr("height", function(d) { return height - y(d.Attribution); })
+                  .on('mouseover', tip.show)
+                  .on('mouseout', tip.hide)
+
+            });
+
+            function type(d) {
+              d.Attribution = +d.Attribution;
+              return d;
+            }
+
+// u
+
+            var u = d3.select("#u")
+                .append("svg")
+                .attr("width", width + margin.left + margin.right)
+                .attr("height", height + margin.top + margin.bottom)
+                .append("g")
+                .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+            d3.csv("u.csv", function(error, data) {
+              data.forEach(function(d) {
+                d.count = +d.count;
+              });
+
+
+              x.domain(data.map(function(d) { return d.Medium; }));
+              y.domain([0, d3.max(data, function(d) { return d.Attribution; })]);
+
+              u.append("g")
+                  .attr("class", "x axis")
+                  .attr("transform", "translate(0," + height + ")")
+                  .call(xAxis);
+
+              u.append("g")
+                  .attr("class", "y axis")
+                  .call(yAxis)
+                .append("text")
+                  .attr("transform", "rotate(-90)")
+                  .attr("y", 6)
+                  .attr("dy", ".71em")
+                  .style("text-anchor", "end")
+                  .text("Attribution");
+
+              u.call(tip) 
+
+              u.selectAll(".bar")
+                  .data(data)
+                .enter().append("rect")
+                  .attr("class", "bar")
+                  .attr("x", function(d) { return x(d.Medium); })
+                  .attr("width", x.rangeBand())
+                  .attr("y", function(d) { return y(d.Attribution); })
+                  .attr("height", function(d) { return height - y(d.Attribution); })
+                  .on('mouseover', tip.show)
+                  .on('mouseout', tip.hide)
+
+            });
+
+            function type(d) {
+              d.Attribution = +d.Attribution;
+              return d;
+            }
+             
+
+
+        </script>
+
+
+    </body>
+</html>    
