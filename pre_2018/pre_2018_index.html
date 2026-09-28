@@ -15,7 +15,13 @@
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/styles.css">
 	<!-- styles.css asks for IMG_1648.jpg but the file is IMG_1648.JPG; the live server is case-sensitive -->
-	<style>#header { background-image: url('css/IMG_1648.JPG'); }</style>
+	<!-- styles.css only scales the photo on non-touch screens, and iOS ignores fixed backgrounds -->
+	<style>
+		#header { background-image: url('css/IMG_1648.JPG'); background-size: cover; background-position: center; }
+		.touch #header { background-attachment: scroll; }
+		/* Hero text: span full width so it stays centered on narrow screens (saved page froze a desktop offset) */
+		#intro { left: 0 !important; width: 100%; padding: 0 1em; }
+	</style>
 	<!-- FONTS -->
 	<link href="https://fonts.googleapis.com/css?family=Cabin:400,700,400italic|Merriweather:900" rel="stylesheet" type="text/css">
 	<script src="js/custom.modernizr.js"></script>
