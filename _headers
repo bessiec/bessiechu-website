@@ -1,9 +1,27 @@
-/*.html
-  Cache-Control: no-cache, no-store, must-revalidate
-  Pragma: no-cache
-  Expires: 0
+# HTML has no rule: Cloudflare Pages' default (max-age=0, must-revalidate)
+# already checks for a fresh copy on every visit. Matching rules are joined,
+# so keep these patterns from overlapping.
 
-/*
-  Cache-Control: no-cache, no-store, must-revalidate
-  Pragma: no-cache
-  Expires: 0
+/*.pdf
+  Cache-Control: public, max-age=3600
+
+/*.jpg
+  Cache-Control: public, max-age=86400
+
+/*.JPG
+  Cache-Control: public, max-age=86400
+
+/*.png
+  Cache-Control: public, max-age=86400
+
+/*.svg
+  Cache-Control: public, max-age=86400
+
+/*.css
+  Cache-Control: public, max-age=86400
+
+/*.js
+  Cache-Control: public, max-age=86400
+
+/pre_2018/font/*
+  Cache-Control: public, max-age=604800
