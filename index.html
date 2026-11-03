@@ -2,197 +2,153 @@
 <html lang="en">
 <head>
     <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-JCZN280491"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JCZN280491"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-          gtag('config', 'G-JCZN280491');
-        </script>
+      gtag('config', 'G-JCZN280491');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bessie Chu</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-            line-height: 1.6;
-            color: #2c3e50;
-            background: #fff;
-        }
-        
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 60px 30px;
-        }
-        
-        header {
-            margin-bottom: 80px;
-        }
-        
-        h1 {
-            font-size: 2.5rem;
-            font-weight: 600;
-            margin-bottom: 20px;
-            color: #1a1a1a;
-        }
-        
-        .intro {
-            font-size: 1.125rem;
-            color: #4a5568;
-            max-width: 700px;
-            line-height: 1.7;
-            margin-bottom: 15px;
-        }
-        
-        .location {
-            font-size: 0.95rem;
-            color: #718096;
-            font-style: italic;
-        }
-        
-        .sections {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 30px;
-            margin-top: 60px;
-        }
-        
-        .section-card {
-            border: 1px solid #e2e8f0;
-            padding: 35px 30px;
-            text-decoration: none;
-            color: inherit;
-            transition: all 0.3s ease;
-            background: #fff;
-        }
-        
-        .section-card:hover {
-            border-color: #3f63eb;
-            transform: translateY(-2px);
-            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-        }
-        
-        .section-card h2 {
-            font-size: 1.5rem;
-            font-weight: 600;
-            margin-bottom: 12px;
-            color: #1a1a1a;
-        }
-        
-        .section-card p {
-            color: #718096;
-            font-size: 0.95rem;
-            line-height: 1.6;
-        }
-        
-        .section-card .arrow {
-            display: inline-block;
-            margin-left: 5px;
-            transition: transform 0.3s ease;
-        }
-        
-        .section-card:hover .arrow {
-            transform: translateX(5px);
-        }
-        
-        footer {
-            margin-top: 100px;
-            padding-top: 40px;
-            border-top: 1px solid #e2e8f0;
-        }
-        
-        .links {
-            display: flex;
-            gap: 25px;
-            flex-wrap: wrap;
-        }
-        
-        .links a {
-            color: #3f63eb;
-            text-decoration: none;
-            font-size: 0.95rem;
-            font-weight: 500;
-            transition: color 0.2s ease;
-        }
-        
-        .links a:hover {
-            color: #163dd1;
-            text-decoration: underline;
-        }
-        
-        @media (max-width: 768px) {
-            .container {
-                padding: 40px 20px;
-            }
-            
-            h1 {
-                font-size: 2rem;
-            }
-            
-            .intro {
-                font-size: 1rem;
-            }
-            
-            .sections {
-                grid-template-columns: 1fr;
-                gap: 20px;
-            }
-        }
-    </style>
+    <meta name="description" content="Product manager turning tech innovation into products customers love. Platform, data infrastructure, privacy and Edge AI. NYC and Los Angeles.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Bessie Chu">
+    <meta property="og:description" content="Product manager turning tech innovation into products customers love.">
+    <meta property="og:url" content="https://bessiechu.com/">
+    <meta property="og:image" content="https://bessiechu.com/bc_bk_web.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <script>try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&display=swap">
+    <link rel="stylesheet" href="style.css?v=1">
+    <script src="site.js?v=1" defer></script>
 </head>
 <body>
+    <header class="site-header">
+        <div class="container">
+            <a class="wordmark" href="index.html">bessie chu</a>
+            <nav class="site-nav" aria-label="Main">
+                <a href="work.html">work</a>
+                <a href="about.html">about</a>
+                <a class="nav-manual" href="bessie_2026_personal_user_manual.pdf" target="_blank"><span class="long">personal user </span>manual</a>
+                <button class="theme-toggle" type="button" aria-label="Toggle theme"></button>
+            </nav>
+        </div>
+    </header>
+
     <div class="container">
-        <header>
-            <h1>Bessie Chu</h1>
-           <p class="intro">
-                Product Manager turning tech innovation into products customers love. 
-            </p>
-            <p class="location">Splitting time between NYC and Los Angeles. Available for <a href="https://chuandcompany.com/">consulting</a>.</p>
-        </header>
-      
+        <div class="cities" hidden aria-label="Local times">
+            <span class="city" data-zone="America/New_York"><span class="city-dot"></span><span class="city-name">NYC</span><span class="city-time">--:--</span></span>
+            <span class="city" data-zone="America/Los_Angeles"><span class="city-dot"></span><span class="city-name">LA</span><span class="city-time">--:--</span></span>
+            <span class="city" data-zone="Asia/Taipei"><span class="city-dot"></span><span class="city-name">TPE</span><span class="city-time">--:--</span></span>
+            <span class="cities-note">nyc ⇄ la · formerly taipei</span>
+        </div>
 
-        <main>  
-            
+        <main>
+            <section class="hero">
+                <p class="eyebrow">Product Manager · NYC ⇄ LA</p>
+                <h1>Bessie Chu</h1>
+                <p class="lede">
+                    Product manager turning tech innovation into products customers love.
+                    <strong>Ten+ years</strong> in platform, data infrastructure, and privacy products, most recently <strong>three years in Taiwan</strong> bringing Edge AI to connected TVs with chipset partners.
+                </p>
+                <a class="status" href="https://chuandcompany.com/">
+                    <span class="status-dot"></span>
+                    Available for consulting
+                </a>
+            </section>
 
-            <div class="sections">
-                <a href="work.html" class="section-card">
-                    <h2>Work & Writing <span class="arrow">→</span></h2>
-                    <p>AI projects and thoughts on working in Taiwan, angel investing, data privacy, and other professional development</p>
-                </a>
-                
-                <a href="about.html" class="section-card">
-                    <h2>About <span class="arrow">→</span></h2>
-                    <p>Background, what drives me, interests outside of work, and potential collaborations</p>
-                </a>
-                
-                <a href="bessie_2026_personal_user_manual.pdf" class="section-card" target="_blank">
-                    <h2>Personal User Manual <span class="arrow">→</span></h2>
-                    <p>How I work, communicate, and collaborate best. A guide for working with me.</p>
-                </a>
-                
-                <a href="https://www.linkedin.com/in/chubessie/" class="section-card" target="_blank">
-                    <h2>LinkedIn <span class="arrow">→</span></h2>
-                    <p>Connect with me professionally, see my work history, and get in touch.</p>
-                </a>
-            </div>
+            <section class="block">
+                <div class="block-head">
+                    <h2>Now</h2>
+                </div>
+                <ul class="ticks">
+                    <li><strong>Consulting</strong> as a super IC for AI start-ups looking to scale</li>
+                    <li><strong>Learning in public</strong> with <a href="https://bessiechu.wordpress.com/category/180daysofai/" target="_blank">180 Days of Learning and Applying AI</a></li>
+                    <li><strong>Angel investing</strong> in women-led companies and empowering women to invest</li>
+                    <li><strong>Serving</strong> on the Board of Directors for the UC Davis Alumni Association</li>
+                </ul>
+            </section>
+
+            <section class="block">
+                <div class="block-head">
+                    <h2>Selected work</h2>
+                    <a class="more" href="work.html">All work &amp; writing</a>
+                </div>
+                <ul class="index">
+                    <li>
+                        <span class="year">2026</span>
+                        <div>
+                            <h3><a href="https://bessiechu.wordpress.com/2026/09/13/building-breathwork-voice-pacer-an-edge-ai-wellness-demo/" target="_blank">Breathwork Pacer</a></h3>
+                            <p>Voice-controlled breathing coach on a Raspberry Pi, running online with Gemini or fully offline on-device</p>
+                            <span class="tag">raspberry pi · ai fusion hat · claude</span>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="year">2026</span>
+                        <div>
+                            <h3><a href="https://humanleverage.ai/vibes-are-not-a-strategy-for-ai/" target="_blank">Vibes are Not a Strategy for AI</a></h3>
+                            <p>Arguing for critical thinking about AI as a technology, past the politicized rhetoric</p>
+                            <span class="tag">humanleverage ai</span>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="year">2026</span>
+                        <div>
+                            <h3><a href="https://bessiefromsgv.substack.com/p/why-taiwan-is-not-a-great-expat-destination" target="_blank">Why Taiwan Is Not a Great Expat Destination</a></h3>
+                            <p>Nuance on Taiwan as an expat market, between toxic positivity and doomerism</p>
+                            <span class="tag">substack</span>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="year">2026</span>
+                        <div>
+                            <h3><a href="https://github.com/bessiec/nudgeaicoach-for-students" target="_blank">NudgeAICoach</a></h3>
+                            <p>Chrome extension prototype that coaches students in AI fluency in real time</p>
+                            <span class="tag">chrome extension · claude</span>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="year">2025</span>
+                        <div>
+                            <h3><a href="https://www.linkedin.com/posts/chubessie_proud-to-have-spearheaded-this-us-taiwan-share-7369454315083546631-1GfG/" target="_blank">Samba TV × MediaTek: Edge AI on connected TVs</a></h3>
+                            <p>Spearheaded a joint US–Taiwan project deploying privacy-preserving, on-device AI for contextual CTV advertising globally</p>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="block">
+                <div class="block-head">
+                    <h2>Elsewhere</h2>
+                </div>
+                <ul class="elsewhere">
+                    <li><a href="https://www.linkedin.com/in/chubessie/" target="_blank">LinkedIn</a></li>
+                    <li><a href="https://github.com/bessiec" target="_blank">GitHub</a></li>
+                    <li><a href="https://bessiefromsgv.substack.com" target="_blank">Substack</a></li>
+                    <li><a href="https://bessiechu.wordpress.com" target="_blank">Learning notes</a></li>
+                    <li><a href="bessie_2026_personal_user_manual.pdf" target="_blank">Personal User Manual</a></li>
+                    <li><a href="https://food.bessiechu.com" target="_blank">Food</a></li>
+                </ul>
+            </section>
         </main>
-        
-        <footer>
-        <div class="links">
-                <a href="work.html">Work & Writing</a>
-                <a href="about.html">About</a>
-                <a href="bessie_2026_personal_user_manual.pdf" target="_blank">Personal User Manual</a>
-                <a href="https://www.linkedin.com/in/chubessie/" target="_blank">LinkedIn</a>
-            </div>
-        </footer>
     </div>
+
+    <footer class="site-footer">
+        <div class="container">
+            <span>© 2026 Bessie Chu</span>
+            <nav class="footer-links" aria-label="Footer">
+                <a href="work.html">work</a>
+                <a href="about.html">about</a>
+                <a href="bessie_2026_personal_user_manual.pdf" target="_blank">personal user manual</a>
+                <a href="https://www.linkedin.com/in/chubessie/" target="_blank">linkedin</a>
+            </nav>
+        </div>
+    </footer>
 </body>
 </html>

@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-JCZN280491"></script>
     <script>
@@ -11,403 +10,289 @@
 
       gtag('config', 'G-JCZN280491');
     </script>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Work & Writing - Bessie Chu</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-            line-height: 1.6;
-            color: #2c3e50;
-            background: #fff;
-        }
-        
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 60px 30px;
-        }
-        
-        nav {
-            margin-bottom: 50px;
-        }
-        
-        nav a {
-            color: #3f63eb;
-            text-decoration: none;
-            font-size: 0.95rem;
-        }
-        
-        nav a:hover {
-            text-decoration: underline;
-        }
-        
-        h1 {
-            font-size: 2.5rem;
-            font-weight: 600;
-            margin-bottom: 30px;
-            color: #1a1a1a;
-        }
-        
-        .overview {
-            font-size: 1.125rem;
-            color: #4a5568;
-            line-height: 1.7;
-            margin-bottom: 60px;
-            max-width: 700px;
-        }
-        
-        .section {
-            margin-bottom: 70px;
-        }
-        
-        .section h2 {
-            font-size: 1.75rem;
-            font-weight: 600;
-            margin-bottom: 10px;
-            color: #1a1a1a;
-        }
-        
-        .section-intro {
-            color: #718096;
-            font-size: 0.95rem;
-            margin-bottom: 30px;
-        }
-        
-        .articles {
-            display: flex;
-            flex-direction: column;
-            gap: 25px;
-        }
-        
-        .article {
-            border-left: 3px solid #e2e8f0;
-            padding-left: 20px;
-            transition: border-color 0.2s ease;
-        }
-        
-        .article:hover {
-            border-left-color: #3f63eb;
-        }
-        
-        .article h3 {
-            font-size: 1.25rem;
-            font-weight: 600;
-            margin-bottom: 8px;
-        }
-        
-        .article h3 a {
-            color: #1a1a1a;
-            text-decoration: none;
-            transition: color 0.2s ease;
-        }
-        
-        .article h3 a:hover {
-            color: #3f63eb;
-        }
-        
-        .article-meta {
-            font-size: 0.85rem;
-            color: #a0aec0;
-            margin-bottom: 8px;
-        }
-        
-        .article-description {
-            color: #4a5568;
-            font-size: 0.95rem;
-            line-height: 1.6;
-        }
-        
-        .external-link {
-            display: inline-block;
-            font-size: 0.85rem;
-            color: #3f63eb;
-            text-decoration: none;
-            margin-top: 5px;
-        }
-        
-        .external-link:hover {
-            text-decoration: underline;
-        }
-        
-        .view-more {
-            margin-top: 30px;
-            padding-top: 20px;
-            border-top: 1px solid #e2e8f0;
-        }
-        
-        .view-more a {
-            display: inline-flex;
-            align-items: center;
-            color: #3f63eb;
-            text-decoration: none;
-            font-size: 0.95rem;
-            font-weight: 500;
-            transition: color 0.2s ease;
-        }
-        
-        .view-more a:hover {
-            color: #163dd1;
-        }
-        
-        .view-more a::after {
-            content: '→';
-            margin-left: 8px;
-            transition: transform 0.2s ease;
-        }
-        
-        .view-more a:hover::after {
-            transform: translateX(4px);
-        }
-        
-        .experience {
-            background: #f7fafc;
-            border: 1px solid #e2e8f0;
-            padding: 30px;
-            margin-bottom: 70px;
-        }
-        
-        .experience h2 {
-            font-size: 1.5rem;
-            margin-bottom: 15px;
-        }
-        
-        .experience p {
-            color: #4a5568;
-            line-height: 1.7;
-            margin-bottom: 12px;
-        }
-        
-        footer {
-            margin-top: 100px;
-            padding-top: 40px;
-            border-top: 1px solid #e2e8f0;
-        }
-        
-        .footer-links {
-            display: flex;
-            gap: 25px;
-            flex-wrap: wrap;
-        }
-        
-        .footer-links a {
-            color: #3f63eb;
-            text-decoration: none;
-            font-size: 0.95rem;
-            transition: color 0.2s ease;
-        }
-        
-        .footer-links a:hover {
-            color: #163dd1;
-            text-decoration: underline;
-        }
-        
-        @media (max-width: 768px) {
-            .container {
-                padding: 40px 20px;
-            }
-            
-            h1 {
-                font-size: 2rem;
-            }
-            
-            .overview {
-                font-size: 1rem;
-            }
-            
-            .section h2 {
-                font-size: 1.5rem;
-            }
-        }
-    </style>
+    <meta name="description" content="AI projects and writing on Taiwan, angel investing, data privacy, and professional development.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Work & Writing · Bessie Chu">
+    <meta property="og:description" content="AI projects and writing on Taiwan, angel investing, data privacy, and professional development.">
+    <meta property="og:url" content="https://bessiechu.com/work.html">
+    <meta property="og:image" content="https://bessiechu.com/bc_bk_web.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <script>try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&display=swap">
+    <link rel="stylesheet" href="style.css?v=1">
+    <script src="site.js?v=1" defer></script>
 </head>
 <body>
-    <div class="container">
-        <nav>
-            <a href="index.html">← Home</a>
-        </nav>
-        
-        <header>
-            <h1>Work & Writing</h1>
-            <p class="overview">
-                I operate at the intersection of product, global business, and responsible technology. Leading with curiosity and empathy.
-            </p>
-        </header>
-        
-        <div class="experience">
-            <h2>Who I Am</h2>
-            <div id="background-content">
-                <p>My superpower is in connecting technology to business outcomes as an operator who can align teams from executives to ICs across borders and functions and ship product fast. I turn visions into reality as a no-nonsense New Yorker. Leveraging leadership from building 0 to 1 privacy-first AI products in the start-up space as well as enterprise-scale data processing infrastructure and platforms.</p>
-            </div>
+    <header class="site-header">
+        <div class="container">
+            <a class="wordmark" href="index.html">bessie chu</a>
+            <nav class="site-nav" aria-label="Main">
+                <a href="work.html" aria-current="page">work</a>
+                <a href="about.html">about</a>
+                <a class="nav-manual" href="bessie_2026_personal_user_manual.pdf" target="_blank"><span class="long">personal user </span>manual</a>
+                <button class="theme-toggle" type="button" aria-label="Toggle theme"></button>
+            </nav>
         </div>
-        
-        <main id="sections-container">
-            <section class="section">
-                <h2>Building</h2>
-                <p class="section-intro">Vibe Coding and Past Projects</p>
-                <div class="articles">
-                    <article class="article">
-                        <h3><a href="https://bessiechu.wordpress.com/2026/09/13/building-breathwork-voice-pacer-an-edge-ai-wellness-demo/" target="_blank">Building Breathwork Pacer: an Edge AI Wellness Experiment</a></h3>
-                        <div class="article-meta">Raspberry Pi + AI Fusion HAT + Claude • 2026</div>
-                        <p class="article-description">Demo of voice-controlled breathing coach on a Raspberry Pi, running online with Gemini or fully offline on-device.</p>
-                    </article>
-                    <article class="article">
-                        <h3><a href="https://github.com/bessiec/nudgeaicoach-for-students" target="_blank">NudgeAICoach</a></h3>
-                        <div class="article-meta">Built on Claude • 2026</div>
-                        <p class="article-description">I built NudgeAICoach as a vibe coded Chrome extension prototype experimenting with what it would look like to coach students in AI fluency in real-time using principles from the Claude AI Fluency for Students Course</p>
-                    </article>
-                    <article class="article">
-                        <h3><a href="https://joy-tracker-app.vercel.app/demo" target="_blank">Joy App</a></h3>
-                        <div class="article-meta">Built on Claude • 2026</div>
-                        <p class="article-description">Joy Tracker Web App Built with Claude. Learn to build your own Joy Tracker app on Claude</p>
-                    </article>
-                    <article class="article">
-                        <h3><a href="https://github.com/bessiec" target="_blank">My Github</a></h3>
-                        <div class="article-meta">Github • 2026</div>
-                        <p class="article-description">Dusting off the old repo with vibe coding</p>
-                    </article>
-                    <article class="article">
-                        <h3><a href="https://teamtreehouse.com/profiles/bessiechu" target="_blank">Treehouse Profile</a></h3>
-                        <div class="article-meta">Treehouse • 2026</div>
-                        <p class="article-description">Team Treehousing it since 2015</p>
-                    </article>
-                    <article class="article">
-                        <h3><a href="pre_2018/pre_2018_index.html">Pre-2018 Data Viz and More Projects</a></h3>
-                        <div class="article-meta">Misc • 2018</div>
-                        <p class="article-description">Old projects pre-2018 around data visualization, sports fandom, food, and more</p>
-                    </article>
+    </header>
+
+    <div class="container">
+        <div class="cities" hidden aria-label="Local times">
+            <span class="city" data-zone="America/New_York"><span class="city-dot"></span><span class="city-name">NYC</span><span class="city-time">--:--</span></span>
+            <span class="city" data-zone="America/Los_Angeles"><span class="city-dot"></span><span class="city-name">LA</span><span class="city-time">--:--</span></span>
+            <span class="city" data-zone="Asia/Taipei"><span class="city-dot"></span><span class="city-name">TPE</span><span class="city-time">--:--</span></span>
+            <span class="cities-note">nyc ⇄ la · formerly taipei</span>
+        </div>
+
+        <main>
+            <section class="hero">
+                <p class="eyebrow">Work &amp; Writing</p>
+                <h1>Building, writing, investing.</h1>
+                <p class="lede">
+                    I operate at the intersection of product, global business, and responsible technology. Leading with curiosity and empathy.
+                </p>
+            </section>
+
+            <section class="block">
+                <div class="callout">
+                    <span class="label">Who I am</span>
+                    <p>My superpower is in connecting technology to business outcomes as an operator who can align teams from executives to ICs across borders and functions and ship product fast. I turn visions into reality as a no-nonsense New Yorker. Leveraging leadership from building 0 to 1 privacy-first AI products in the start-up space as well as enterprise-scale data processing infrastructure and platforms.</p>
                 </div>
             </section>
 
-            <section class="section">
-                <h2>Learning & Professional Development</h2>
-                <p class="section-intro">Career reflections, lessons learned, and talks given</p>
-                <div class="articles">
-                    <article class="article">
-                        <h3><a href="https://humanleverage.ai/vibes-are-not-a-strategy-for-ai/" target="_blank">Vibes are Not a Strategy for AI</a></h3>
-                        <div class="article-meta">HumanLeverage AI • 2026</div>
-                        <p class="article-description">Article I wrote arguing critical thinking of AI as a technology and past the politicized rhetoric</p>
-                    </article>
-                    <article class="article">
-                        <h3><a href="https://bessiechu.wordpress.com/category/180daysofai/" target="_blank">180 Days of Learning and Applying AI</a></h3>
-                        <div class="article-meta">WordPress • 2026</div>
-                        <p class="article-description">Speed running learning AI</p>
-                    </article>
-                    <article class="article">
-                        <h3><a href="https://bessiefromsgv.medium.com/alumni-101-advice-for-grads-71c67f2322f9" target="_blank">Alumni 101 Advice for Grads</a></h3>
-                        <div class="article-meta">Medium • 2025</div>
-                        <p class="article-description">Notes on a workshop I gave to new grads for UC Davis Alumni 101 Week</p>
-                    </article>
-                    <article class="article">
-                        <h3><a href="https://bessiefromsgv.medium.com/how-to-say-no-and-set-boundaries-bd0352612d44" target="_blank">How to Say No and Set Boundaries</a></h3>
-                        <div class="article-meta">Medium • 2024</div>
-                        <p class="article-description">Salon Talk x Inclusive Leadership talk I gave on how to say no, with the premise that the difference between successful people and the most successful people is that the latter say no to almost everything</p>
-                    </article>
+            <section class="block">
+                <div class="block-head">
+                    <h2>Building</h2>
                 </div>
-                <div class="view-more">
-                    <a href="https://bessiechu.wordpress.com" target="_blank">View more learning notes</a>
-                </div>
+                <p class="block-intro">Vibe Coding and Past Projects</p>
+                <ul class="index">
+                    <li>
+                        <span class="year">2026</span>
+                        <div>
+                            <h3><a href="https://bessiechu.wordpress.com/2026/09/13/building-breathwork-voice-pacer-an-edge-ai-wellness-demo/" target="_blank">Building Breathwork Pacer: an Edge AI Wellness Experiment</a></h3>
+                            <p>Demo of voice-controlled breathing coach on a Raspberry Pi, running online with Gemini or fully offline on-device</p>
+                            <span class="tag">raspberry pi + ai fusion hat + claude</span>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="year">2026</span>
+                        <div>
+                            <h3><a href="https://github.com/bessiec/nudgeaicoach-for-students" target="_blank">NudgeAICoach</a></h3>
+                            <p>I built NudgeAICoach as a vibe coded Chrome extension prototype experimenting with what it would look like to coach students in AI fluency in real-time using principles from the Claude AI Fluency for Students Course</p>
+                            <span class="tag">built on claude</span>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="year">2026</span>
+                        <div>
+                            <h3><a href="https://joy-tracker-app.vercel.app/demo" target="_blank">Joy App</a></h3>
+                            <p>Joy Tracker Web App Built with Claude. Learn to build your own Joy Tracker app on Claude</p>
+                            <span class="tag">built on claude</span>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="year">2026</span>
+                        <div>
+                            <h3><a href="https://github.com/bessiec" target="_blank">My Github</a></h3>
+                            <p>Dusting off the old repo with vibe coding</p>
+                            <span class="tag">github</span>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="year">2026</span>
+                        <div>
+                            <h3><a href="https://teamtreehouse.com/profiles/bessiechu" target="_blank">Treehouse Profile</a></h3>
+                            <p>Team Treehousing it since 2015</p>
+                            <span class="tag">treehouse</span>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="year">2018</span>
+                        <div>
+                            <h3><a href="pre_2018/pre_2018_index.html">Pre-2018 Data Viz and More Projects</a></h3>
+                            <p>Old projects pre-2018 around data visualization, sports fandom, food, and more</p>
+                            <span class="tag">misc</span>
+                        </div>
+                    </li>
+                </ul>
             </section>
 
-            <section class="section">
-                <h2>Taiwan & International Business</h2>
-                <p class="section-intro">Perspectives on doing business and expat life in Taiwan</p>
-                <div class="articles">
-                    <article class="article">
-                        <h3><a href="https://bessiefromsgv.substack.com/p/why-taiwan-is-not-a-great-expat-destination" target="_blank">Why Taiwan Is Not a Great Expat Destination</a></h3>
-                        <div class="article-meta">Substack • 2026</div>
-                        <p class="article-description">Writing on Taiwan suffers from either a toxic positivity or doomerism. Instead, I'm offering some nuance on Taiwan as an expat market</p>
-                    </article>
-                    <article class="article">
-                        <h3><a href="https://bessiefromsgv.substack.com/p/why-expats-are-still-a-thing-in-2026" target="_blank">Why Are Expats Still a Thing in 2026?</a></h3>
-                        <div class="article-meta">Substack • 2026</div>
-                        <p class="article-description">Why companies still send out expats to different countries and how to succeed as an expat</p>
-                    </article>
-                    <article class="article">
-                        <h3><a href="https://www.linkedin.com/posts/chubessie_proud-to-have-spearheaded-this-us-taiwan-share-7369454315083546631-1GfG/" target="_blank">Samba TV and MediaTek Deploy EdgeAI on Connected TVs Globally, Ushering in a New Era of Privacy-preserving, Contextual CTV Advertising</a></h3>
-                        <div class="article-meta">LinkedIn • 2025</div>
-                        <p class="article-description">Press release on joint AI edge development project with leading Taiwanese chipset manufacturer I spearheaded</p>
-                    </article>
-                    <article class="article">
-                        <h3><a href="https://www.taiwanese-expat.com" target="_blank">Taiwanese Expat</a></h3>
-                        <div class="article-meta">Website • 2026</div>
-                        <p class="article-description">A guide of curated recommendations in Taiwan and commentary about Taiwan beyond night markets and semiconductors</p>
-                    </article>
-                    <article class="article">
-                        <h3><a href="https://bessiefromsgv.substack.com/p/silicon-valley-is-taking-all-the" target="_blank">Silicon Valley Is Taking All The Wrong Lessons From China’s Successes</a></h3>
-                        <div class="article-meta">Substack • 2025</div>
-                        <p class="article-description">What Americans should learn from China and other Asian countries is industrial policy, not 996 or authoritarian control</p>
-                    </article>
+            <section class="block">
+                <div class="block-head">
+                    <h2>Learning &amp; Professional Development</h2>
                 </div>
-                <div class="view-more">
-                    <a href="https://bessiefromsgv.substack.com/s/taiwan-expat" target="_blank">View more Taiwan and Expat writing</a>
-                </div>
+                <p class="block-intro">Career reflections, lessons learned, and talks given</p>
+                <ul class="index">
+                    <li>
+                        <span class="year">2026</span>
+                        <div>
+                            <h3><a href="https://humanleverage.ai/vibes-are-not-a-strategy-for-ai/" target="_blank">Vibes are Not a Strategy for AI</a></h3>
+                            <p>Article I wrote arguing critical thinking of AI as a technology and past the politicized rhetoric</p>
+                            <span class="tag">humanleverage ai</span>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="year">2026</span>
+                        <div>
+                            <h3><a href="https://bessiechu.wordpress.com/category/180daysofai/" target="_blank">180 Days of Learning and Applying AI</a></h3>
+                            <p>Speed running learning AI</p>
+                            <span class="tag">wordpress</span>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="year">2025</span>
+                        <div>
+                            <h3><a href="https://bessiefromsgv.medium.com/alumni-101-advice-for-grads-71c67f2322f9" target="_blank">Alumni 101 Advice for Grads</a></h3>
+                            <p>Notes on a workshop I gave to new grads for UC Davis Alumni 101 Week</p>
+                            <span class="tag">medium</span>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="year">2024</span>
+                        <div>
+                            <h3><a href="https://bessiefromsgv.medium.com/how-to-say-no-and-set-boundaries-bd0352612d44" target="_blank">How to Say No and Set Boundaries</a></h3>
+                            <p>Salon Talk x Inclusive Leadership talk I gave on how to say no, with the premise that the difference between successful people and the most successful people is that the latter say no to almost everything</p>
+                            <span class="tag">medium</span>
+                        </div>
+                    </li>
+                </ul>
+                <p class="more-row"><a class="more" href="https://bessiechu.wordpress.com" target="_blank">View more learning notes</a></p>
             </section>
 
-            <section class="section">
-                <h2>Angel Investing</h2>
-                <p class="section-intro">Investing in women-led companies and empowering women to invest</p>
-                <div class="articles">
-                    <article class="article">
-                        <h3><a href="https://www.linkedin.com/posts/no-one-is-going-to-come-and-save-us-we-ugcPost-7459747019876716544-mgDi?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAHh_tsBiZEDs8a-wtzDHSL4iE3YGX3cdOg" target="_blank">Epic Angels Investor Feature</a></h3>
-                        <div class="article-meta">LinkedIn • 2026</div>
-                        <p class="article-description">Why I Invest</p>
-                    </article>
-                    <article class="article">
-                        <h3><a href="bruin_angels_preso_2026.pdf">Angel Investing 101</a></h3>
-                        <div class="article-meta">PDF • 2026</div>
-                        <p class="article-description">Overview presentation I did on angel investing and my investment thesis for Bruin Angels.</p>
-                    </article>
-                    <article class="article">
-                        <h3><a href="https://www.linkedin.com/posts/careher_investlikeher-investlikeher-ugcPost-7350791649754578945-ihcH/" target="_blank">Invest Like Her</a></h3>
-                        <div class="article-meta">Workshop • 2025</div>
-                        <p class="article-description">Co-led inaugural Invest Like Her, a small-group learning series empowering women to invest, in Tokyo</p>
-                    </article>
+            <section class="block">
+                <div class="block-head">
+                    <h2>Taiwan &amp; International Business</h2>
                 </div>
+                <p class="block-intro">Perspectives on doing business and expat life in Taiwan</p>
+                <ul class="index">
+                    <li>
+                        <span class="year">2026</span>
+                        <div>
+                            <h3><a href="https://bessiefromsgv.substack.com/p/why-taiwan-is-not-a-great-expat-destination" target="_blank">Why Taiwan Is Not a Great Expat Destination</a></h3>
+                            <p>Writing on Taiwan suffers from either a toxic positivity or doomerism. Instead, I'm offering some nuance on Taiwan as an expat market</p>
+                            <span class="tag">substack</span>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="year">2026</span>
+                        <div>
+                            <h3><a href="https://bessiefromsgv.substack.com/p/why-expats-are-still-a-thing-in-2026" target="_blank">Why Are Expats Still a Thing in 2026?</a></h3>
+                            <p>Why companies still send out expats to different countries and how to succeed as an expat</p>
+                            <span class="tag">substack</span>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="year">2026</span>
+                        <div>
+                            <h3><a href="https://www.taiwanese-expat.com" target="_blank">Taiwanese Expat</a></h3>
+                            <p>A guide of curated recommendations in Taiwan and commentary about Taiwan beyond night markets and semiconductors</p>
+                            <span class="tag">website</span>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="year">2025</span>
+                        <div>
+                            <h3><a href="https://www.linkedin.com/posts/chubessie_proud-to-have-spearheaded-this-us-taiwan-share-7369454315083546631-1GfG/" target="_blank">Samba TV and MediaTek Deploy EdgeAI on Connected TVs Globally, Ushering in a New Era of Privacy-preserving, Contextual CTV Advertising</a></h3>
+                            <p>Press release on joint AI edge development project with leading Taiwanese chipset manufacturer I spearheaded</p>
+                            <span class="tag">linkedin</span>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="year">2025</span>
+                        <div>
+                            <h3><a href="https://bessiefromsgv.substack.com/p/silicon-valley-is-taking-all-the" target="_blank">Silicon Valley Is Taking All The Wrong Lessons From China’s Successes</a></h3>
+                            <p>What Americans should learn from China and other Asian countries is industrial policy, not 996 or authoritarian control</p>
+                            <span class="tag">substack</span>
+                        </div>
+                    </li>
+                </ul>
+                <p class="more-row"><a class="more" href="https://bessiefromsgv.substack.com/s/taiwan-expat" target="_blank">View more Taiwan and Expat writing</a></p>
             </section>
 
-            <section class="section">
-                <h2>Data Privacy</h2>
-                <p class="section-intro">Writing on data privacy</p>
-                <div class="articles">
-                    <article class="article">
-                        <h3><a href="https://bessiechu.wordpress.com/2025/12/26/what-is-data-privacy-why-is-a-human-right/" target="_blank">What is Data Privacy?</a></h3>
-                        <div class="article-meta">WordPress • 2023</div>
-                        <p class="article-description">Why is it a Human Right?</p>
-                    </article>
-                    <article class="article">
-                        <h3><a href="https://bessiechu.wordpress.com/2025/12/26/how-does-confidential-computing-keep-data-safe/" target="_blank">How Does Confidential Computing Keep Data Safe?</a></h3>
-                        <div class="article-meta">WordPress • 2023</div>
-                        <p class="article-description">Confidential Computing refers to technologies that protect data during processing by running the compute inside a secure, hardware-based environment called a Trusted Execution Environment (TEE).</p>
-                    </article>
-                    <article class="article">
-                        <h3><a href="https://bessiechu.wordpress.com/2025/12/26/protect-your-data-shift-left-on-encryption/" target="_blank">Protect Your Data: Shift Left on Encryption</a></h3>
-                        <div class="article-meta">WordPress • 2022</div>
-                        <p class="article-description">Shifting Left in software often refers to testing earlier in the software development life cycle rather than at the end. We increase security by Shifting Encryption Left.</p>
-                    </article>
+            <section class="block">
+                <div class="block-head">
+                    <h2>Angel Investing</h2>
                 </div>
-                <div class="view-more">
-                    <a href="https://bessiechu.wordpress.com/category/data-privacy/" target="_blank">View more data privacy articles</a>
+                <p class="block-intro">Investing in women-led companies and empowering women to invest</p>
+                <ul class="index">
+                    <li>
+                        <span class="year">2026</span>
+                        <div>
+                            <h3><a href="https://www.linkedin.com/posts/no-one-is-going-to-come-and-save-us-we-ugcPost-7459747019876716544-mgDi?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAAAHh_tsBiZEDs8a-wtzDHSL4iE3YGX3cdOg" target="_blank">Epic Angels Investor Feature</a></h3>
+                            <p>Why I Invest</p>
+                            <span class="tag">linkedin</span>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="year">2026</span>
+                        <div>
+                            <h3><a href="bruin_angels_preso_2026.pdf">Angel Investing 101</a></h3>
+                            <p>Overview presentation I did on angel investing and my investment thesis for Bruin Angels</p>
+                            <span class="tag">pdf</span>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="year">2025</span>
+                        <div>
+                            <h3><a href="https://www.linkedin.com/posts/careher_investlikeher-investlikeher-ugcPost-7350791649754578945-ihcH/" target="_blank">Invest Like Her</a></h3>
+                            <p>Co-led inaugural Invest Like Her, a small-group learning series empowering women to invest, in Tokyo</p>
+                            <span class="tag">workshop</span>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="block">
+                <div class="block-head">
+                    <h2>Data Privacy</h2>
                 </div>
+                <p class="block-intro">Writing on data privacy</p>
+                <ul class="index">
+                    <li>
+                        <span class="year">2023</span>
+                        <div>
+                            <h3><a href="https://bessiechu.wordpress.com/2025/12/26/what-is-data-privacy-why-is-a-human-right/" target="_blank">What is Data Privacy?</a></h3>
+                            <p>Why is it a Human Right?</p>
+                            <span class="tag">wordpress</span>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="year">2023</span>
+                        <div>
+                            <h3><a href="https://bessiechu.wordpress.com/2025/12/26/how-does-confidential-computing-keep-data-safe/" target="_blank">How Does Confidential Computing Keep Data Safe?</a></h3>
+                            <p>Confidential Computing refers to technologies that protect data during processing by running the compute inside a secure, hardware-based environment called a Trusted Execution Environment (TEE)</p>
+                            <span class="tag">wordpress</span>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="year">2022</span>
+                        <div>
+                            <h3><a href="https://bessiechu.wordpress.com/2025/12/26/protect-your-data-shift-left-on-encryption/" target="_blank">Protect Your Data: Shift Left on Encryption</a></h3>
+                            <p>Shifting Left in software often refers to testing earlier in the software development life cycle rather than at the end. We increase security by Shifting Encryption Left</p>
+                            <span class="tag">wordpress</span>
+                        </div>
+                    </li>
+                </ul>
+                <p class="more-row"><a class="more" href="https://bessiechu.wordpress.com/category/data-privacy/" target="_blank">View more data privacy articles</a></p>
             </section>
         </main>
-
-        <footer>
-            <div class="footer-links">
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="https://www.linkedin.com/in/chubessie" target="_blank">LinkedIn</a>
-                <a href="bessie_2026_personal_user_manual.pdf" target="_blank">Personal User Manual</a>
-            </div>
-        </footer>
     </div>
 
+    <footer class="site-footer">
+        <div class="container">
+            <span>© 2026 Bessie Chu</span>
+            <nav class="footer-links" aria-label="Footer">
+                <a href="index.html">home</a>
+                <a href="about.html">about</a>
+                <a href="bessie_2026_personal_user_manual.pdf" target="_blank">personal user manual</a>
+                <a href="https://www.linkedin.com/in/chubessie" target="_blank">linkedin</a>
+            </nav>
+        </div>
+    </footer>
 </body>
 </html>
