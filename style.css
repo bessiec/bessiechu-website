@@ -412,6 +412,36 @@ h3 {
     letter-spacing: 0.02em;
 }
 
+/* ---------- Offer cards ---------- */
+.offers {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 14px;
+    list-style: none;
+}
+
+.offers li {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    background: var(--surface);
+}
+
+.offers .label {
+    margin-bottom: 10px;
+}
+
+.offers p {
+    font-size: 0.93rem;
+    margin: 6px 0 16px;
+}
+
+.offers .more {
+    margin-top: auto;
+}
+
 /* ---------- Bulleted lists ---------- */
 .ticks {
     list-style: none;
@@ -727,10 +757,6 @@ h3 {
 
     .site-nav {
         gap: 16px;
-    }
-
-    .site-nav .long {
-        display: none;
     }
 
     .cities-note {
